@@ -13,7 +13,7 @@ v3_outputs/
 *_v3_pred.jpg
 
 # Resume checkpoint can exceed GitHub's 100 MB regular-file limit
-*.pth
+
 
 # SAM labeling cache
 *stream_cache.jsonl
