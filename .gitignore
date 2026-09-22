@@ -1,0 +1,21 @@
+__pycache__/
+*.py[cod]
+
+# Generated V3 outputs and local experiment artifacts
+v3_outputs/
+*.log
+
+# Local media used for manual inference
+*.mp4
+*.avi
+*.mov
+*_pred.jpg
+*_v3_pred.jpg
+
+# Resume checkpoint can exceed GitHub's 100 MB regular-file limit
+*.pth
+
+# SAM labeling cache
+*stream_cache.jsonl
+# Notebook cũ nặng 11.6MB
+mobilenet-v4-l-n-2.ipynb

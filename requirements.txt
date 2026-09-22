@@ -1,0 +1,15 @@
+﻿# Core
+torch>=2.2.0
+torchvision>=0.17.0
+
+# MobileNetV4 (khong co trong torchvision, phai dung timm)
+timm>=1.0.3
+
+# Inference & visualization
+opencv-python>=4.9.0
+Pillow>=10.3.0
+numpy>=1.26.0
+matplotlib>=3.8.0
+
+# Optional: used by the legacy SAM labeling scripts
+tqdm>=4.66.0
