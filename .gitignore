@@ -16,7 +16,6 @@ __pycache__/
 .ipynb_checkpoints/
 
 # Outputs & experiment logs
-v3_outputs/
 *.log
 
 # Media files
