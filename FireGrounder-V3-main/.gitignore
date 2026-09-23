@@ -2,7 +2,6 @@ __pycache__/
 *.py[cod]
 
 # Generated V3 outputs and local experiment artifacts
-v3_outputs/
 *.log
 
 # Local media used for manual inference
