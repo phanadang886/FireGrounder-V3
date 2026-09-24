@@ -1,0 +1,46 @@
+{
+  "checkpoint": "d:\\2D Detection\\FireGrounder-V3-main\\FireGrounder-V3-main\\v3_outputs\\best_v3_fpn.pth",
+  "dataset": "D:\\2D Detection\\FireGrounder-V3-main\\FireGrounder-V3-main\\fire_ground_dataset\\dataset_labels.json",
+  "resolution": 256,
+  "threshold": 0.5,
+  "split_info": {
+    "train": {
+      "count": 4420,
+      "fire": 3128,
+      "no_fire": 1292
+    },
+    "val": {
+      "count": 780,
+      "fire": 529,
+      "no_fire": 251
+    },
+    "test": {
+      "count": 1300,
+      "fire": 852,
+      "no_fire": 448
+    }
+  },
+  "test_loss": 0.15802411081699225,
+  "test_parts": {
+    "cls": 0.08800306612482438,
+    "heatmap": 0.0037640480116869395,
+    "coord": 0.007199271954596043,
+    "total": 0.15802411081699225
+  },
+  "test_metrics": {
+    "precision": 0.9749670619235836,
+    "recall": 0.8685446009389671,
+    "f1": 0.9186840471756672,
+    "tp": 740,
+    "tn": 429,
+    "fp": 19,
+    "fn": 112,
+    "mae_px": 23.95875358581543,
+    "median_px": 4.936852931976318,
+    "p90_px": 89.5725326538086,
+    "pck10": 0.6549295783042908,
+    "pck25": 0.7570422291755676,
+    "within5_pct": 50.2347412109375
+  },
+  "best_epoch": 19
+}

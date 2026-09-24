@@ -31,3 +31,5 @@ __pycache__/
 
 # SAM labeling cache
 *stream_cache.jsonl
+
+fire-samples/
