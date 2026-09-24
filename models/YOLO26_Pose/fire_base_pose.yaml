@@ -1,0 +1,10 @@
+path: D:/2D Detection/FireGrounder-V3-main/datasets/dataset_fire_pose
+train: images/train
+val: images/val
+test: images/test
+kpt_shape:
+- 1
+- 2
+flip_idx: []
+names:
+  0: fire

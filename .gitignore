@@ -1,11 +1,18 @@
 # Datasets (do not upload raw images to GitHub)
+datasets/dataset_fire_pose/images/
+datasets/fire-samples/
+fire-samples/
 test/
 train/
 val/
 
-# Model weights and checkpoints
+# Archive & Heavy zips
+_archive/
+*.zip
 
+# Model weights and checkpoints
 *.pt
+*.pth
 *.bin
 *.onnx
 
@@ -16,6 +23,7 @@ __pycache__/
 .ipynb_checkpoints/
 
 # Outputs & experiment logs
+outputs/
 *.log
 
 # Media files
@@ -31,5 +39,3 @@ __pycache__/
 
 # SAM labeling cache
 *stream_cache.jsonl
-
-fire-samples/

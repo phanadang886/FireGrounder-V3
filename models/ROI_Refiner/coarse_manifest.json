@@ -1,0 +1,5471 @@
+{
+  "/kaggle/working/label-matched-images/img_data/test/fire/img_103.jpg": {
+    "point": [
+      17.240234375,
+      165.265625
+    ],
+    "confidence": 0.99951171875,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/test/fire/img_104.jpg": {
+    "point": [
+      20.904296875,
+      164.71875
+    ],
+    "confidence": 0.99951171875,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/test/fire/img_105.jpg": {
+    "point": [
+      13.2890625,
+      175.65625
+    ],
+    "confidence": 0.99951171875,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/test/fire/img_108.jpg": {
+    "point": [
+      17.294921875,
+      159.359375
+    ],
+    "confidence": 0.9990234375,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/test/fire/img_109.jpg": {
+    "point": [
+      32.375,
+      172.265625
+    ],
+    "confidence": 0.9990234375,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/test/fire/img_110.jpg": {
+    "point": [
+      25.484375,
+      168.984375
+    ],
+    "confidence": 1.0,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/test/fire/img_115.jpg": {
+    "point": [
+      15.859375,
+      174.78125
+    ],
+    "confidence": 0.99951171875,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/test/fire/img_116.jpg": {
+    "point": [
+      18.962890625,
+      161.546875
+    ],
+    "confidence": 0.99951171875,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/test/fire/img_117.jpg": {
+    "point": [
+      15.162109375,
+      166.578125
+    ],
+    "confidence": 0.9990234375,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/test/fire/img_119.jpg": {
+    "point": [
+      22.12109375,
+      158.265625
+    ],
+    "confidence": 1.0,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/test/fire/img_120.jpg": {
+    "point": [
+      12.71484375,
+      156.1875
+    ],
+    "confidence": 0.99951171875,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/test/fire/img_121.jpg": {
+    "point": [
+      19.509765625,
+      182.328125
+    ],
+    "confidence": 0.99951171875,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/test/fire/img_122.jpg": {
+    "point": [
+      14.669921875,
+      157.0625
+    ],
+    "confidence": 1.0,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/test/fire/img_123.jpg": {
+    "point": [
+      22.9140625,
+      162.3125
+    ],
+    "confidence": 1.0,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/test/fire/img_134.jpg": {
+    "point": [
+      133.21875,
+      203.328125
+    ],
+    "confidence": 1.0,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/test/fire/img_139.jpg": {
+    "point": [
+      24.0625,
+      165.265625
+    ],
+    "confidence": 0.99951171875,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/test/fire/img_140.jpg": {
+    "point": [
+      18.89453125,
+      176.203125
+    ],
+    "confidence": 0.99951171875,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/test/fire/img_141.jpg": {
+    "point": [
+      14.669921875,
+      168.65625
+    ],
+    "confidence": 0.9990234375,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/test/fire/img_142.jpg": {
+    "point": [
+      17.609375,
+      160.78125
+    ],
+    "confidence": 0.99951171875,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/test/fire/img_143.jpg": {
+    "point": [
+      18.1015625,
+      167.015625
+    ],
+    "confidence": 0.99951171875,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/test/fire/img_144.jpg": {
+    "point": [
+      12.783203125,
+      161.0
+    ],
+    "confidence": 0.99951171875,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/test/fire/img_214.jpg": {
+    "point": [
+      31.9375,
+      209.125
+    ],
+    "confidence": 1.0,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/test/fire/img_215.jpg": {
+    "point": [
+      24.52734375,
+      213.5
+    ],
+    "confidence": 1.0,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/test/fire/img_216.jpg": {
+    "point": [
+      27.0703125,
+      209.015625
+    ],
+    "confidence": 0.99951171875,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/test/fire/img_225.jpg": {
+    "point": [
+      48.75390625,
+      115.390625
+    ],
+    "confidence": 1.0,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/test/fire/img_226.jpg": {
+    "point": [
+      186.375,
+      118.125
+    ],
+    "confidence": 1.0,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/test/fire/img_240.jpg": {
+    "point": [
+      177.953125,
+      211.3125
+    ],
+    "confidence": 1.0,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/test/fire/img_241.jpg": {
+    "point": [
+      161.65625,
+      211.859375
+    ],
+    "confidence": 1.0,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/test/fire/img_242.jpg": {
+    "point": [
+      154.328125,
+      209.890625
+    ],
+    "confidence": 1.0,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/test/fire/img_243.jpg": {
+    "point": [
+      98.546875,
+      205.1875
+    ],
+    "confidence": 0.99853515625,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/test/fire/img_244.jpg": {
+    "point": [
+      189.0,
+      213.609375
+    ],
+    "confidence": 1.0,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/test/fire/img_258.jpg": {
+    "point": [
+      76.5078125,
+      211.09375
+    ],
+    "confidence": 1.0,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/test/fire/img_259.jpg": {
+    "point": [
+      44.84375,
+      208.90625
+    ],
+    "confidence": 1.0,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/test/fire/img_260.jpg": {
+    "point": [
+      133.984375,
+      200.59375
+    ],
+    "confidence": 0.99951171875,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/test/fire/img_261.jpg": {
+    "point": [
+      58.5703125,
+      200.703125
+    ],
+    "confidence": 1.0,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/test/fire/img_263.jpg": {
+    "point": [
+      36.83203125,
+      205.953125
+    ],
+    "confidence": 1.0,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/fire/img_102.jpg": {
+    "point": [
+      74.15625,
+      46.67578125
+    ],
+    "confidence": 0.99951171875,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/fire/img_103.jpg": {
+    "point": [
+      80.9375,
+      40.66015625
+    ],
+    "confidence": 0.9990234375,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/fire/img_343.jpg": {
+    "point": [
+      150.71875,
+      193.703125
+    ],
+    "confidence": 1.0,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/fire/img_344.jpg": {
+    "point": [
+      139.671875,
+      184.625
+    ],
+    "confidence": 1.0,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/fire/img_345.jpg": {
+    "point": [
+      156.953125,
+      189.546875
+    ],
+    "confidence": 1.0,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/fire/img_346.jpg": {
+    "point": [
+      163.1875,
+      191.84375
+    ],
+    "confidence": 1.0,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/fire/img_347.jpg": {
+    "point": [
+      149.734375,
+      191.625
+    ],
+    "confidence": 0.99951171875,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/fire/img_348.jpg": {
+    "point": [
+      150.5,
+      188.015625
+    ],
+    "confidence": 0.99951171875,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/fire/img_349.jpg": {
+    "point": [
+      145.25,
+      182.4375
+    ],
+    "confidence": 0.99951171875,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/fire/img_350.jpg": {
+    "point": [
+      144.59375,
+      191.84375
+    ],
+    "confidence": 1.0,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/fire/img_351.jpg": {
+    "point": [
+      145.796875,
+      184.625
+    ],
+    "confidence": 1.0,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/fire/img_352.jpg": {
+    "point": [
+      141.3125,
+      181.234375
+    ],
+    "confidence": 0.99951171875,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/fire/img_353.jpg": {
+    "point": [
+      143.390625,
+      188.453125
+    ],
+    "confidence": 0.99951171875,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/fire/img_354.jpg": {
+    "point": [
+      140.765625,
+      184.953125
+    ],
+    "confidence": 0.99951171875,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/fire/img_355.jpg": {
+    "point": [
+      154.109375,
+      181.671875
+    ],
+    "confidence": 0.99951171875,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/fire/img_356.jpg": {
+    "point": [
+      148.53125,
+      190.203125
+    ],
+    "confidence": 0.99951171875,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/fire/img_357.jpg": {
+    "point": [
+      138.90625,
+      191.1875
+    ],
+    "confidence": 1.0,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/fire/img_358.jpg": {
+    "point": [
+      160.34375,
+      193.046875
+    ],
+    "confidence": 0.99951171875,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/fire/img_359.jpg": {
+    "point": [
+      143.609375,
+      194.90625
+    ],
+    "confidence": 1.0,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/fire/img_360.jpg": {
+    "point": [
+      103.0859375,
+      207.265625
+    ],
+    "confidence": 1.0,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/fire/img_361.jpg": {
+    "point": [
+      155.96875,
+      188.34375
+    ],
+    "confidence": 0.99951171875,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/fire/img_362.jpg": {
+    "point": [
+      149.078125,
+      199.390625
+    ],
+    "confidence": 0.99853515625,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/fire/img_363.jpg": {
+    "point": [
+      156.734375,
+      195.671875
+    ],
+    "confidence": 0.9990234375,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/fire/img_364.jpg": {
+    "point": [
+      153.34375,
+      201.796875
+    ],
+    "confidence": 0.99951171875,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/fire/img_365.jpg": {
+    "point": [
+      154.546875,
+      204.203125
+    ],
+    "confidence": 0.9990234375,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/fire/img_366.jpg": {
+    "point": [
+      152.578125,
+      202.671875
+    ],
+    "confidence": 0.998046875,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/fire/img_367.jpg": {
+    "point": [
+      156.84375,
+      200.265625
+    ],
+    "confidence": 0.99951171875,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/fire/img_368.jpg": {
+    "point": [
+      157.828125,
+      205.515625
+    ],
+    "confidence": 0.99951171875,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/fire/img_369.jpg": {
+    "point": [
+      162.640625,
+      205.1875
+    ],
+    "confidence": 0.9990234375,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/fire/img_370.jpg": {
+    "point": [
+      170.078125,
+      210.984375
+    ],
+    "confidence": 1.0,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/fire/img_371.jpg": {
+    "point": [
+      154.109375,
+      204.09375
+    ],
+    "confidence": 0.9990234375,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/fire/img_372.jpg": {
+    "point": [
+      154.4375,
+      204.421875
+    ],
+    "confidence": 0.99951171875,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/fire/img_373.jpg": {
+    "point": [
+      154.21875,
+      205.734375
+    ],
+    "confidence": 0.99951171875,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/fire/img_374.jpg": {
+    "point": [
+      156.078125,
+      205.40625
+    ],
+    "confidence": 0.9990234375,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/fire/img_375.jpg": {
+    "point": [
+      153.125,
+      205.1875
+    ],
+    "confidence": 0.99951171875,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/fire/img_376.jpg": {
+    "point": [
+      163.40625,
+      207.15625
+    ],
+    "confidence": 0.99951171875,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/fire/img_377.jpg": {
+    "point": [
+      159.6875,
+      201.359375
+    ],
+    "confidence": 0.99951171875,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/fire/img_378.jpg": {
+    "point": [
+      154.875,
+      204.640625
+    ],
+    "confidence": 0.99951171875,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/fire/img_379.jpg": {
+    "point": [
+      158.703125,
+      204.3125
+    ],
+    "confidence": 0.99951171875,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/fire/img_380.jpg": {
+    "point": [
+      142.078125,
+      205.40625
+    ],
+    "confidence": 0.99951171875,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/fire/img_381.jpg": {
+    "point": [
+      148.3125,
+      208.03125
+    ],
+    "confidence": 0.9990234375,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/fire/img_382.jpg": {
+    "point": [
+      154.21875,
+      206.28125
+    ],
+    "confidence": 0.99951171875,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/fire/img_383.jpg": {
+    "point": [
+      154.546875,
+      210.109375
+    ],
+    "confidence": 0.9990234375,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/fire/img_384.jpg": {
+    "point": [
+      148.640625,
+      209.015625
+    ],
+    "confidence": 0.9990234375,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/fire/img_385.jpg": {
+    "point": [
+      152.796875,
+      211.859375
+    ],
+    "confidence": 0.99951171875,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/fire/img_386.jpg": {
+    "point": [
+      152.796875,
+      212.296875
+    ],
+    "confidence": 0.99951171875,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/fire/img_387.jpg": {
+    "point": [
+      152.03125,
+      210.0
+    ],
+    "confidence": 0.9990234375,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/fire/img_388.jpg": {
+    "point": [
+      152.46875,
+      212.296875
+    ],
+    "confidence": 1.0,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/fire/img_389.jpg": {
+    "point": [
+      151.703125,
+      207.703125
+    ],
+    "confidence": 0.99951171875,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/fire/img_390.jpg": {
+    "point": [
+      153.671875,
+      203.765625
+    ],
+    "confidence": 0.99951171875,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/fire/img_391.jpg": {
+    "point": [
+      151.703125,
+      211.96875
+    ],
+    "confidence": 0.99951171875,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/fire/img_392.jpg": {
+    "point": [
+      150.9375,
+      207.59375
+    ],
+    "confidence": 0.99951171875,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/fire/img_393.jpg": {
+    "point": [
+      160.015625,
+      207.59375
+    ],
+    "confidence": 0.99951171875,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/fire/img_394.jpg": {
+    "point": [
+      157.0625,
+      208.46875
+    ],
+    "confidence": 0.99951171875,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/fire/img_395.jpg": {
+    "point": [
+      154.65625,
+      206.71875
+    ],
+    "confidence": 0.99951171875,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/fire/img_396.jpg": {
+    "point": [
+      151.8125,
+      207.921875
+    ],
+    "confidence": 1.0,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/fire/img_397.jpg": {
+    "point": [
+      157.828125,
+      208.46875
+    ],
+    "confidence": 0.99951171875,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/fire/img_398.jpg": {
+    "point": [
+      161.21875,
+      208.140625
+    ],
+    "confidence": 0.9990234375,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/fire/img_399.jpg": {
+    "point": [
+      158.375,
+      210.4375
+    ],
+    "confidence": 1.0,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/fire/img_401.jpg": {
+    "point": [
+      171.28125,
+      27.42578125
+    ],
+    "confidence": 1.0,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/fire/img_402.jpg": {
+    "point": [
+      153.125,
+      44.515625
+    ],
+    "confidence": 1.0,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/fire/img_403.jpg": {
+    "point": [
+      83.8359375,
+      52.14453125
+    ],
+    "confidence": 1.0,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/fire/img_404.jpg": {
+    "point": [
+      59.9921875,
+      55.9453125
+    ],
+    "confidence": 0.99951171875,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/fire/img_405.jpg": {
+    "point": [
+      65.6796875,
+      51.10546875
+    ],
+    "confidence": 0.9990234375,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/fire/img_406.jpg": {
+    "point": [
+      65.1875,
+      53.56640625
+    ],
+    "confidence": 0.99951171875,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/fire/img_407.jpg": {
+    "point": [
+      56.546875,
+      82.03125
+    ],
+    "confidence": 0.99951171875,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/fire/img_408.jpg": {
+    "point": [
+      54.7421875,
+      74.921875
+    ],
+    "confidence": 0.9990234375,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/fire/img_409.jpg": {
+    "point": [
+      49.765625,
+      90.125
+    ],
+    "confidence": 0.9990234375,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/fire/img_410.jpg": {
+    "point": [
+      32.83984375,
+      86.5703125
+    ],
+    "confidence": 0.99853515625,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/fire/img_411.jpg": {
+    "point": [
+      35.41015625,
+      82.90625
+    ],
+    "confidence": 0.99951171875,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/fire/img_412.jpg": {
+    "point": [
+      68.359375,
+      89.4140625
+    ],
+    "confidence": 1.0,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/fire/img_413.jpg": {
+    "point": [
+      33.140625,
+      67.15625
+    ],
+    "confidence": 1.0,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/fire/img_414.jpg": {
+    "point": [
+      98.21875,
+      52.36328125
+    ],
+    "confidence": 1.0,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/fire/img_415.jpg": {
+    "point": [
+      28.7109375,
+      87.0625
+    ],
+    "confidence": 1.0,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/fire/img_416.jpg": {
+    "point": [
+      161.4375,
+      106.4765625
+    ],
+    "confidence": 0.99951171875,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/fire/img_417.jpg": {
+    "point": [
+      43.09375,
+      151.59375
+    ],
+    "confidence": 0.99951171875,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/fire/img_418.jpg": {
+    "point": [
+      27.193359375,
+      200.484375
+    ],
+    "confidence": 1.0,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/fire/img_419.jpg": {
+    "point": [
+      69.015625,
+      196.546875
+    ],
+    "confidence": 0.99853515625,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/fire/img_420.jpg": {
+    "point": [
+      107.734375,
+      205.734375
+    ],
+    "confidence": 0.9990234375,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/fire/img_421.jpg": {
+    "point": [
+      139.234375,
+      209.78125
+    ],
+    "confidence": 0.99951171875,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/fire/img_422.jpg": {
+    "point": [
+      193.375,
+      196.0
+    ],
+    "confidence": 1.0,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/fire/img_423.jpg": {
+    "point": [
+      191.953125,
+      154.109375
+    ],
+    "confidence": 0.99951171875,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/fire/img_424.jpg": {
+    "point": [
+      174.890625,
+      144.8125
+    ],
+    "confidence": 0.998046875,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/fire/img_425.jpg": {
+    "point": [
+      168.109375,
+      126.546875
+    ],
+    "confidence": 0.99951171875,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/fire/img_428.jpg": {
+    "point": [
+      20.248046875,
+      214.046875
+    ],
+    "confidence": 0.9990234375,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/fire/img_429.jpg": {
+    "point": [
+      206.28125,
+      65.5703125
+    ],
+    "confidence": 0.99951171875,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/fire/img_430.jpg": {
+    "point": [
+      137.375,
+      66.8828125
+    ],
+    "confidence": 0.99853515625,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/fire/img_431.jpg": {
+    "point": [
+      77.875,
+      53.89453125
+    ],
+    "confidence": 0.99951171875,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/fire/img_432.jpg": {
+    "point": [
+      62.453125,
+      58.2421875
+    ],
+    "confidence": 0.9990234375,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/fire/img_433.jpg": {
+    "point": [
+      66.2265625,
+      62.5078125
+    ],
+    "confidence": 0.998046875,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/fire/img_434.jpg": {
+    "point": [
+      75.1953125,
+      63.4375
+    ],
+    "confidence": 0.99853515625,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/fire/img_435.jpg": {
+    "point": [
+      32.73046875,
+      102.8125
+    ],
+    "confidence": 0.9990234375,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/fire/img_436.jpg": {
+    "point": [
+      30.92578125,
+      97.125
+    ],
+    "confidence": 0.99951171875,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/fire/img_437.jpg": {
+    "point": [
+      27.9453125,
+      102.703125
+    ],
+    "confidence": 1.0,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/fire/img_438.jpg": {
+    "point": [
+      46.83984375,
+      110.7421875
+    ],
+    "confidence": 0.99951171875,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/fire/img_439.jpg": {
+    "point": [
+      69.8359375,
+      104.890625
+    ],
+    "confidence": 0.99853515625,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/fire/img_440.jpg": {
+    "point": [
+      89.9609375,
+      103.578125
+    ],
+    "confidence": 0.99951171875,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/fire/img_441.jpg": {
+    "point": [
+      22.599609375,
+      59.28125
+    ],
+    "confidence": 0.99951171875,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/fire/img_442.jpg": {
+    "point": [
+      44.32421875,
+      119.875
+    ],
+    "confidence": 1.0,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/fire/img_443.jpg": {
+    "point": [
+      27.658203125,
+      130.921875
+    ],
+    "confidence": 0.99951171875,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/fire/img_444.jpg": {
+    "point": [
+      113.96875,
+      99.75
+    ],
+    "confidence": 1.0,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/fire/img_445.jpg": {
+    "point": [
+      66.1171875,
+      152.796875
+    ],
+    "confidence": 0.99951171875,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/fire/img_446.jpg": {
+    "point": [
+      67.921875,
+      189.4375
+    ],
+    "confidence": 1.0,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/fire/img_447.jpg": {
+    "point": [
+      145.140625,
+      191.953125
+    ],
+    "confidence": 0.99951171875,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/fire/img_448.jpg": {
+    "point": [
+      161.875,
+      180.578125
+    ],
+    "confidence": 0.99951171875,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/fire/img_449.jpg": {
+    "point": [
+      173.6875,
+      214.15625
+    ],
+    "confidence": 1.0,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/fire/img_450.jpg": {
+    "point": [
+      195.015625,
+      196.65625
+    ],
+    "confidence": 0.9990234375,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/fire/img_451.jpg": {
+    "point": [
+      199.5,
+      183.96875
+    ],
+    "confidence": 0.99951171875,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/fire/img_452.jpg": {
+    "point": [
+      198.40625,
+      172.703125
+    ],
+    "confidence": 0.99951171875,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/fire/img_453.jpg": {
+    "point": [
+      36.75,
+      46.34765625
+    ],
+    "confidence": 1.0,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/fire/img_454.jpg": {
+    "point": [
+      25.7578125,
+      29.39453125
+    ],
+    "confidence": 1.0,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/fire/img_607.jpg": {
+    "point": [
+      147.546875,
+      127.421875
+    ],
+    "confidence": 0.99951171875,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/fire/img_608.jpg": {
+    "point": [
+      135.734375,
+      118.34375
+    ],
+    "confidence": 0.99951171875,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/fire/img_609.jpg": {
+    "point": [
+      131.796875,
+      114.84375
+    ],
+    "confidence": 0.99853515625,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/fire/img_610.jpg": {
+    "point": [
+      145.46875,
+      119.65625
+    ],
+    "confidence": 0.99951171875,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/fire/img_611.jpg": {
+    "point": [
+      140.65625,
+      125.234375
+    ],
+    "confidence": 0.99951171875,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/fire/img_612.jpg": {
+    "point": [
+      142.625,
+      123.703125
+    ],
+    "confidence": 0.99951171875,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/fire/img_613.jpg": {
+    "point": [
+      137.375,
+      120.09375
+    ],
+    "confidence": 0.99951171875,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/fire/img_614.jpg": {
+    "point": [
+      136.828125,
+      119.0
+    ],
+    "confidence": 0.99951171875,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/fire/img_615.jpg": {
+    "point": [
+      137.703125,
+      118.671875
+    ],
+    "confidence": 1.0,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/fire/img_616.jpg": {
+    "point": [
+      135.40625,
+      121.734375
+    ],
+    "confidence": 0.99951171875,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/fire/img_617.jpg": {
+    "point": [
+      141.75,
+      120.09375
+    ],
+    "confidence": 0.99951171875,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/fire/img_618.jpg": {
+    "point": [
+      143.71875,
+      121.515625
+    ],
+    "confidence": 0.99951171875,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/fire/img_619.jpg": {
+    "point": [
+      129.609375,
+      127.859375
+    ],
+    "confidence": 0.99951171875,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/fire/img_620.jpg": {
+    "point": [
+      130.265625,
+      126.0
+    ],
+    "confidence": 0.99951171875,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/fire/img_621.jpg": {
+    "point": [
+      128.40625,
+      121.296875
+    ],
+    "confidence": 0.99951171875,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/fire/img_622.jpg": {
+    "point": [
+      133.21875,
+      118.015625
+    ],
+    "confidence": 0.99951171875,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/fire/img_623.jpg": {
+    "point": [
+      132.453125,
+      113.75
+    ],
+    "confidence": 0.99951171875,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/fire/img_624.jpg": {
+    "point": [
+      139.890625,
+      120.421875
+    ],
+    "confidence": 0.99951171875,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/fire/img_625.jpg": {
+    "point": [
+      142.953125,
+      121.625
+    ],
+    "confidence": 0.99951171875,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/fire/img_626.jpg": {
+    "point": [
+      147.765625,
+      124.359375
+    ],
+    "confidence": 0.99951171875,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/fire/img_627.jpg": {
+    "point": [
+      142.953125,
+      126.765625
+    ],
+    "confidence": 1.0,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/fire/img_628.jpg": {
+    "point": [
+      141.09375,
+      118.671875
+    ],
+    "confidence": 0.99951171875,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/fire/img_629.jpg": {
+    "point": [
+      144.484375,
+      127.640625
+    ],
+    "confidence": 0.99951171875,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/fire/img_630.jpg": {
+    "point": [
+      144.484375,
+      120.640625
+    ],
+    "confidence": 0.99951171875,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/fire/img_631.jpg": {
+    "point": [
+      141.859375,
+      119.65625
+    ],
+    "confidence": 0.99951171875,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/fire/img_632.jpg": {
+    "point": [
+      149.296875,
+      115.9375
+    ],
+    "confidence": 0.99951171875,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/fire/img_633.jpg": {
+    "point": [
+      143.71875,
+      120.96875
+    ],
+    "confidence": 0.99951171875,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/fire/img_634.jpg": {
+    "point": [
+      139.78125,
+      125.671875
+    ],
+    "confidence": 0.99951171875,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/fire/img_635.jpg": {
+    "point": [
+      141.53125,
+      122.28125
+    ],
+    "confidence": 0.99951171875,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/fire/img_636.jpg": {
+    "point": [
+      135.078125,
+      122.828125
+    ],
+    "confidence": 0.99951171875,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/fire/img_637.jpg": {
+    "point": [
+      140.109375,
+      120.640625
+    ],
+    "confidence": 0.99951171875,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/fire/img_638.jpg": {
+    "point": [
+      133.4375,
+      117.6875
+    ],
+    "confidence": 0.99951171875,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/fire/img_639.jpg": {
+    "point": [
+      138.578125,
+      126.0
+    ],
+    "confidence": 0.99951171875,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/fire/img_640.jpg": {
+    "point": [
+      131.46875,
+      119.328125
+    ],
+    "confidence": 0.99951171875,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/fire/img_641.jpg": {
+    "point": [
+      130.8125,
+      123.703125
+    ],
+    "confidence": 1.0,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/fire/img_642.jpg": {
+    "point": [
+      122.390625,
+      118.015625
+    ],
+    "confidence": 0.99951171875,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/fire/img_643.jpg": {
+    "point": [
+      123.15625,
+      124.25
+    ],
+    "confidence": 0.99951171875,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/fire/img_644.jpg": {
+    "point": [
+      125.125,
+      121.625
+    ],
+    "confidence": 0.99951171875,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/fire/img_645.jpg": {
+    "point": [
+      125.78125,
+      123.921875
+    ],
+    "confidence": 0.99951171875,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/fire/img_646.jpg": {
+    "point": [
+      129.28125,
+      122.609375
+    ],
+    "confidence": 0.99951171875,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/fire/img_647.jpg": {
+    "point": [
+      130.59375,
+      125.34375
+    ],
+    "confidence": 0.99951171875,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/fire/img_648.jpg": {
+    "point": [
+      135.84375,
+      121.296875
+    ],
+    "confidence": 0.99951171875,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/fire/img_649.jpg": {
+    "point": [
+      126.875,
+      124.6875
+    ],
+    "confidence": 0.99951171875,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/fire/img_650.jpg": {
+    "point": [
+      129.171875,
+      124.03125
+    ],
+    "confidence": 0.99951171875,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/fire/img_651.jpg": {
+    "point": [
+      138.25,
+      124.25
+    ],
+    "confidence": 0.99951171875,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/fire/img_652.jpg": {
+    "point": [
+      134.96875,
+      122.28125
+    ],
+    "confidence": 0.99951171875,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/fire/img_653.jpg": {
+    "point": [
+      134.09375,
+      115.9375
+    ],
+    "confidence": 0.99951171875,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/fire/img_654.jpg": {
+    "point": [
+      129.828125,
+      123.15625
+    ],
+    "confidence": 0.99951171875,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/fire/img_655.jpg": {
+    "point": [
+      125.34375,
+      130.921875
+    ],
+    "confidence": 0.99951171875,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/fire/img_661.jpg": {
+    "point": [
+      53.78515625,
+      145.03125
+    ],
+    "confidence": 0.9990234375,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/fire/img_662.jpg": {
+    "point": [
+      44.84375,
+      160.453125
+    ],
+    "confidence": 0.99853515625,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/fire/img_663.jpg": {
+    "point": [
+      49.84765625,
+      153.234375
+    ],
+    "confidence": 0.9990234375,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/fire/img_664.jpg": {
+    "point": [
+      48.015625,
+      157.9375
+    ],
+    "confidence": 0.99951171875,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/fire/img_665.jpg": {
+    "point": [
+      50.8046875,
+      157.0625
+    ],
+    "confidence": 1.0,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/fire/img_666.jpg": {
+    "point": [
+      112.984375,
+      145.578125
+    ],
+    "confidence": 0.99951171875,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/fire/img_667.jpg": {
+    "point": [
+      117.25,
+      160.78125
+    ],
+    "confidence": 0.99951171875,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/fire/img_711.jpg": {
+    "point": [
+      210.0,
+      41.3984375
+    ],
+    "confidence": 1.0,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/fire/img_712.jpg": {
+    "point": [
+      216.671875,
+      129.5
+    ],
+    "confidence": 1.0,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/fire/img_713.jpg": {
+    "point": [
+      217.4375,
+      123.921875
+    ],
+    "confidence": 1.0,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/fire/img_714.jpg": {
+    "point": [
+      216.5625,
+      92.421875
+    ],
+    "confidence": 0.99951171875,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/fire/img_715.jpg": {
+    "point": [
+      218.53125,
+      104.234375
+    ],
+    "confidence": 0.99951171875,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/fire/img_716.jpg": {
+    "point": [
+      220.9375,
+      111.0703125
+    ],
+    "confidence": 1.0,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/fire/img_717.jpg": {
+    "point": [
+      218.640625,
+      97.9453125
+    ],
+    "confidence": 0.99951171875,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/fire/img_718.jpg": {
+    "point": [
+      220.0625,
+      113.53125
+    ],
+    "confidence": 0.99951171875,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/fire/img_719.jpg": {
+    "point": [
+      219.734375,
+      101.609375
+    ],
+    "confidence": 1.0,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/fire/img_720.jpg": {
+    "point": [
+      217.328125,
+      109.265625
+    ],
+    "confidence": 1.0,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/fire/img_721.jpg": {
+    "point": [
+      217.765625,
+      112.109375
+    ],
+    "confidence": 1.0,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/fire/img_722.jpg": {
+    "point": [
+      217.875,
+      114.296875
+    ],
+    "confidence": 1.0,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/fire/img_723.jpg": {
+    "point": [
+      214.8125,
+      111.6171875
+    ],
+    "confidence": 0.99951171875,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/fire/img_724.jpg": {
+    "point": [
+      217.765625,
+      112.21875
+    ],
+    "confidence": 0.99951171875,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/fire/img_725.jpg": {
+    "point": [
+      217.109375,
+      108.5546875
+    ],
+    "confidence": 0.99951171875,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/fire/img_726.jpg": {
+    "point": [
+      217.546875,
+      117.6875
+    ],
+    "confidence": 0.99951171875,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/fire/img_727.jpg": {
+    "point": [
+      217.0,
+      129.609375
+    ],
+    "confidence": 1.0,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/fire/img_728.jpg": {
+    "point": [
+      216.34375,
+      119.765625
+    ],
+    "confidence": 0.99951171875,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/fire/img_729.jpg": {
+    "point": [
+      217.65625,
+      116.59375
+    ],
+    "confidence": 0.99755859375,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/fire/img_730.jpg": {
+    "point": [
+      218.96875,
+      122.171875
+    ],
+    "confidence": 0.99951171875,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/fire/img_731.jpg": {
+    "point": [
+      218.09375,
+      131.796875
+    ],
+    "confidence": 0.99951171875,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/fire/img_732.jpg": {
+    "point": [
+      218.53125,
+      129.828125
+    ],
+    "confidence": 0.99951171875,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/fire/img_733.jpg": {
+    "point": [
+      217.546875,
+      117.46875
+    ],
+    "confidence": 0.99951171875,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/fire/img_734.jpg": {
+    "point": [
+      217.765625,
+      130.15625
+    ],
+    "confidence": 1.0,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/fire/img_735.jpg": {
+    "point": [
+      217.65625,
+      125.125
+    ],
+    "confidence": 0.99951171875,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/fire/img_736.jpg": {
+    "point": [
+      217.875,
+      126.21875
+    ],
+    "confidence": 1.0,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/fire/img_737.jpg": {
+    "point": [
+      217.109375,
+      117.578125
+    ],
+    "confidence": 0.99951171875,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/fire/img_738.jpg": {
+    "point": [
+      216.34375,
+      129.390625
+    ],
+    "confidence": 0.9990234375,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/fire/img_739.jpg": {
+    "point": [
+      219.296875,
+      135.296875
+    ],
+    "confidence": 0.99951171875,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/fire/img_740.jpg": {
+    "point": [
+      220.28125,
+      134.09375
+    ],
+    "confidence": 0.99951171875,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/fire/img_741.jpg": {
+    "point": [
+      218.75,
+      128.078125
+    ],
+    "confidence": 0.99951171875,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/fire/img_742.jpg": {
+    "point": [
+      218.421875,
+      137.921875
+    ],
+    "confidence": 0.99951171875,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/fire/img_743.jpg": {
+    "point": [
+      220.609375,
+      125.234375
+    ],
+    "confidence": 0.99951171875,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/fire/img_744.jpg": {
+    "point": [
+      218.203125,
+      136.0625
+    ],
+    "confidence": 0.99951171875,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/fire/img_746.jpg": {
+    "point": [
+      217.765625,
+      128.296875
+    ],
+    "confidence": 0.99951171875,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/fire/img_750.jpg": {
+    "point": [
+      220.390625,
+      127.96875
+    ],
+    "confidence": 0.99951171875,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/fire/img_751.jpg": {
+    "point": [
+      218.75,
+      135.515625
+    ],
+    "confidence": 0.99951171875,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/fire/img_752.jpg": {
+    "point": [
+      218.421875,
+      126.4375
+    ],
+    "confidence": 0.99951171875,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/fire/img_753.jpg": {
+    "point": [
+      217.546875,
+      131.6875
+    ],
+    "confidence": 0.99951171875,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/fire/img_754.jpg": {
+    "point": [
+      216.453125,
+      138.03125
+    ],
+    "confidence": 0.99951171875,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/fire/img_755.jpg": {
+    "point": [
+      217.765625,
+      141.640625
+    ],
+    "confidence": 0.99951171875,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/fire/img_756.jpg": {
+    "point": [
+      219.40625,
+      136.609375
+    ],
+    "confidence": 0.99951171875,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/fire/img_757.jpg": {
+    "point": [
+      217.65625,
+      141.96875
+    ],
+    "confidence": 0.99951171875,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/fire/img_758.jpg": {
+    "point": [
+      217.21875,
+      135.734375
+    ],
+    "confidence": 0.99951171875,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/fire/img_759.jpg": {
+    "point": [
+      218.421875,
+      129.0625
+    ],
+    "confidence": 0.99951171875,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/fire/img_760.jpg": {
+    "point": [
+      218.640625,
+      131.90625
+    ],
+    "confidence": 0.99951171875,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/fire/img_761.jpg": {
+    "point": [
+      217.4375,
+      133.546875
+    ],
+    "confidence": 0.9990234375,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/fire/img_768.jpg": {
+    "point": [
+      218.53125,
+      145.140625
+    ],
+    "confidence": 0.99951171875,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/fire/img_770.jpg": {
+    "point": [
+      217.4375,
+      126.765625
+    ],
+    "confidence": 0.9990234375,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/fire/img_773.jpg": {
+    "point": [
+      219.515625,
+      141.53125
+    ],
+    "confidence": 1.0,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/fire/img_774.jpg": {
+    "point": [
+      220.28125,
+      139.34375
+    ],
+    "confidence": 0.99951171875,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/fire/img_775.jpg": {
+    "point": [
+      218.640625,
+      135.625
+    ],
+    "confidence": 0.99951171875,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/fire/img_776.jpg": {
+    "point": [
+      218.203125,
+      139.453125
+    ],
+    "confidence": 0.99951171875,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/fire/img_779.jpg": {
+    "point": [
+      217.21875,
+      137.8125
+    ],
+    "confidence": 0.99951171875,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/fire/img_81.jpg": {
+    "point": [
+      68.359375,
+      216.890625
+    ],
+    "confidence": 1.0,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/fire/img_82.jpg": {
+    "point": [
+      105.21875,
+      215.140625
+    ],
+    "confidence": 0.99951171875,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/fire/img_83.jpg": {
+    "point": [
+      171.5,
+      210.546875
+    ],
+    "confidence": 0.99951171875,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/fire/img_84.jpg": {
+    "point": [
+      22.517578125,
+      216.015625
+    ],
+    "confidence": 1.0,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/fire/img_85.jpg": {
+    "point": [
+      69.3984375,
+      217.4375
+    ],
+    "confidence": 1.0,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/fire/img_86.jpg": {
+    "point": [
+      91.765625,
+      181.5625
+    ],
+    "confidence": 0.998046875,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/fire/img_87.jpg": {
+    "point": [
+      24.36328125,
+      218.3125
+    ],
+    "confidence": 1.0,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/fire/img_88.jpg": {
+    "point": [
+      34.2890625,
+      213.5
+    ],
+    "confidence": 1.0,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/fire/img_89.jpg": {
+    "point": [
+      26.33203125,
+      212.84375
+    ],
+    "confidence": 0.99951171875,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/fire/img_91.jpg": {
+    "point": [
+      10.048828125,
+      219.734375
+    ],
+    "confidence": 1.0,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/fire/img_92.jpg": {
+    "point": [
+      26.564453125,
+      213.5
+    ],
+    "confidence": 0.99951171875,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/fire/img_93.jpg": {
+    "point": [
+      19.44140625,
+      219.078125
+    ],
+    "confidence": 1.0,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/fire/img_94.jpg": {
+    "point": [
+      14.806640625,
+      219.296875
+    ],
+    "confidence": 0.99951171875,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/fire/img_95.jpg": {
+    "point": [
+      16.65234375,
+      217.875
+    ],
+    "confidence": 0.99951171875,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/fire/img_96.jpg": {
+    "point": [
+      24.36328125,
+      214.703125
+    ],
+    "confidence": 1.0,
+    "detected": true,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/test/default/img_102.jpg": {
+    "point": null,
+    "confidence": 0.0005130767822265625,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/test/default/img_112.jpg": {
+    "point": null,
+    "confidence": 0.0006384849548339844,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/test/default/img_113.jpg": {
+    "point": null,
+    "confidence": 0.0006070137023925781,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/test/default/img_114.jpg": {
+    "point": null,
+    "confidence": 0.0005421638488769531,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/test/default/img_132.jpg": {
+    "point": null,
+    "confidence": 0.0013561248779296875,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/test/default/img_133.jpg": {
+    "point": null,
+    "confidence": 0.0009775161743164062,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/test/default/img_137.jpg": {
+    "point": null,
+    "confidence": 0.0009365081787109375,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/test/default/img_138.jpg": {
+    "point": null,
+    "confidence": 0.000614166259765625,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/test/default/img_200.jpg": {
+    "point": null,
+    "confidence": 0.0002892017364501953,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/test/default/img_201.jpg": {
+    "point": null,
+    "confidence": 0.00042724609375,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/test/default/img_202.jpg": {
+    "point": null,
+    "confidence": 0.0003447532653808594,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/test/default/img_203.jpg": {
+    "point": null,
+    "confidence": 0.0005335807800292969,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/test/default/img_204.jpg": {
+    "point": null,
+    "confidence": 0.0006933212280273438,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/test/default/img_205.jpg": {
+    "point": null,
+    "confidence": 0.00028014183044433594,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/test/default/img_206.jpg": {
+    "point": null,
+    "confidence": 0.0003814697265625,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/test/default/img_207.jpg": {
+    "point": null,
+    "confidence": 0.0005035400390625,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/test/default/img_208.jpg": {
+    "point": null,
+    "confidence": 0.0005702972412109375,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/test/default/img_209.jpg": {
+    "point": null,
+    "confidence": 0.0004897117614746094,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/test/default/img_210.jpg": {
+    "point": null,
+    "confidence": 0.0006313323974609375,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/test/default/img_211.jpg": {
+    "point": null,
+    "confidence": 0.0002415180206298828,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/test/default/img_217.jpg": {
+    "point": null,
+    "confidence": 0.0005297660827636719,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/test/default/img_218.jpg": {
+    "point": null,
+    "confidence": 0.0003998279571533203,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/test/default/img_219.jpg": {
+    "point": null,
+    "confidence": 0.00042057037353515625,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/test/default/img_220.jpg": {
+    "point": null,
+    "confidence": 0.0005507469177246094,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/test/default/img_221.jpg": {
+    "point": null,
+    "confidence": 0.0005593299865722656,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/test/default/img_222.jpg": {
+    "point": null,
+    "confidence": 0.0005998611450195312,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/test/default/img_223.jpg": {
+    "point": null,
+    "confidence": 0.00055694580078125,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/test/default/img_227.jpg": {
+    "point": null,
+    "confidence": 0.00055694580078125,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/test/default/img_228.jpg": {
+    "point": null,
+    "confidence": 0.0007410049438476562,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/test/default/img_229.jpg": {
+    "point": null,
+    "confidence": 0.0008039474487304688,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/test/default/img_230.jpg": {
+    "point": null,
+    "confidence": 0.0005316734313964844,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/test/default/img_231.jpg": {
+    "point": null,
+    "confidence": 0.0006718635559082031,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/test/default/img_232.jpg": {
+    "point": null,
+    "confidence": 0.0005793571472167969,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/test/default/img_233.jpg": {
+    "point": null,
+    "confidence": 0.0005702972412109375,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/test/default/img_234.jpg": {
+    "point": null,
+    "confidence": 0.0005617141723632812,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/test/default/img_235.jpg": {
+    "point": null,
+    "confidence": 0.00038909912109375,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/test/default/img_236.jpg": {
+    "point": null,
+    "confidence": 0.0005035400390625,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/test/default/img_237.jpg": {
+    "point": null,
+    "confidence": 0.0003859996795654297,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/test/default/img_238.jpg": {
+    "point": null,
+    "confidence": 0.0006694793701171875,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/test/default/img_239.jpg": {
+    "point": null,
+    "confidence": 0.0007791519165039062,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/test/default/img_246.jpg": {
+    "point": null,
+    "confidence": 0.0003998279571533203,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/test/default/img_247.jpg": {
+    "point": null,
+    "confidence": 0.0006880760192871094,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/test/default/img_248.jpg": {
+    "point": null,
+    "confidence": 0.0006537437438964844,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/test/default/img_249.jpg": {
+    "point": null,
+    "confidence": 0.00036978721618652344,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/test/default/img_250.jpg": {
+    "point": null,
+    "confidence": 0.0004076957702636719,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/test/default/img_251.jpg": {
+    "point": null,
+    "confidence": 0.00047469139099121094,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/test/default/img_252.jpg": {
+    "point": null,
+    "confidence": 0.0005998611450195312,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/test/default/img_253.jpg": {
+    "point": null,
+    "confidence": 0.00044083595275878906,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/test/default/img_254.jpg": {
+    "point": null,
+    "confidence": 0.00025725364685058594,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/test/default/img_255.jpg": {
+    "point": null,
+    "confidence": 0.0003418922424316406,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/test/default/img_256.jpg": {
+    "point": null,
+    "confidence": 0.0004546642303466797,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/test/default/img_257.jpg": {
+    "point": null,
+    "confidence": 0.0005254745483398438,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/test/default/img_301.jpg": {
+    "point": null,
+    "confidence": 0.0003459453582763672,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/test/default/img_302.jpg": {
+    "point": null,
+    "confidence": 0.00038743019104003906,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/test/default/img_303.jpg": {
+    "point": null,
+    "confidence": 0.00035834312438964844,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/test/default/img_304.jpg": {
+    "point": null,
+    "confidence": 0.0002846717834472656,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/test/default/img_305.jpg": {
+    "point": null,
+    "confidence": 0.0002415180206298828,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/test/default/img_306.jpg": {
+    "point": null,
+    "confidence": 0.0003199577331542969,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/test/default/img_307.jpg": {
+    "point": null,
+    "confidence": 0.0004305839538574219,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/test/default/img_308.jpg": {
+    "point": null,
+    "confidence": 0.0004029273986816406,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/test/default/img_309.jpg": {
+    "point": null,
+    "confidence": 0.0004916191101074219,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/test/default/img_336.jpg": {
+    "point": null,
+    "confidence": 0.000293731689453125,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/test/default/img_337.jpg": {
+    "point": null,
+    "confidence": 0.00033545494079589844,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/test/default/img_338.jpg": {
+    "point": null,
+    "confidence": 0.00041413307189941406,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/test/default/img_339.jpg": {
+    "point": null,
+    "confidence": 0.00034737586975097656,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/test/default/img_340.jpg": {
+    "point": null,
+    "confidence": 0.00044417381286621094,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/test/default/img_341.jpg": {
+    "point": null,
+    "confidence": 0.0003459453582763672,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/test/default/img_342.jpg": {
+    "point": null,
+    "confidence": 0.00044417381286621094,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/test/default/img_343.jpg": {
+    "point": null,
+    "confidence": 0.00033020973205566406,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/test/default/img_344.jpg": {
+    "point": null,
+    "confidence": 0.00033545494079589844,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/test/default/img_345.jpg": {
+    "point": null,
+    "confidence": 0.00027370452880859375,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/test/default/img_346.jpg": {
+    "point": null,
+    "confidence": 0.0004305839538574219,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/test/default/img_347.jpg": {
+    "point": null,
+    "confidence": 0.0003101825714111328,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/test/default/img_348.jpg": {
+    "point": null,
+    "confidence": 0.0004916191101074219,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/test/default/img_349.jpg": {
+    "point": null,
+    "confidence": 0.0005817413330078125,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/test/default/img_350.jpg": {
+    "point": null,
+    "confidence": 0.00039196014404296875,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/test/default/img_351.jpg": {
+    "point": null,
+    "confidence": 0.00035691261291503906,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/test/default/img_352.jpg": {
+    "point": null,
+    "confidence": 0.0004029273986816406,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/test/default/img_353.jpg": {
+    "point": null,
+    "confidence": 0.00037860870361328125,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/test/default/img_354.jpg": {
+    "point": null,
+    "confidence": 0.00047659873962402344,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/test/default/img_355.jpg": {
+    "point": null,
+    "confidence": 0.0006189346313476562,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/test/default/img_356.jpg": {
+    "point": null,
+    "confidence": 0.0003800392150878906,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/test/default/img_357.jpg": {
+    "point": null,
+    "confidence": 0.0007524490356445312,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/test/default/img_358.jpg": {
+    "point": null,
+    "confidence": 0.0006589889526367188,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/default/img_1.jpg": {
+    "point": null,
+    "confidence": 0.0006189346313476562,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/default/img_10.jpg": {
+    "point": null,
+    "confidence": 0.0005464553833007812,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/default/img_100.jpg": {
+    "point": null,
+    "confidence": 0.0007581710815429688,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/default/img_1002.jpg": {
+    "point": null,
+    "confidence": 0.0003845691680908203,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/default/img_1003.jpg": {
+    "point": null,
+    "confidence": 0.0003829002380371094,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/default/img_1007.jpg": {
+    "point": null,
+    "confidence": 0.000720977783203125,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/default/img_101.jpg": {
+    "point": null,
+    "confidence": 0.0007643699645996094,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/default/img_1014.jpg": {
+    "point": null,
+    "confidence": 0.0008106231689453125,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/default/img_1018.jpg": {
+    "point": null,
+    "confidence": 0.0006189346313476562,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/default/img_102.jpg": {
+    "point": null,
+    "confidence": 0.0010204315185546875,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/default/img_1027.jpg": {
+    "point": null,
+    "confidence": 0.0011425018310546875,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/default/img_1042.jpg": {
+    "point": null,
+    "confidence": 0.0003654956817626953,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/default/img_1043.jpg": {
+    "point": null,
+    "confidence": 0.00047469139099121094,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/default/img_1046.jpg": {
+    "point": null,
+    "confidence": 0.00037550926208496094,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/default/img_1052.jpg": {
+    "point": null,
+    "confidence": 0.0003006458282470703,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/default/img_107.jpg": {
+    "point": null,
+    "confidence": 0.0006961822509765625,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/default/img_108.jpg": {
+    "point": null,
+    "confidence": 0.0010166168212890625,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/default/img_109.jpg": {
+    "point": null,
+    "confidence": 0.0009474754333496094,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/default/img_118.jpg": {
+    "point": null,
+    "confidence": 0.0013408660888671875,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/default/img_12.jpg": {
+    "point": null,
+    "confidence": 0.0007948875427246094,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/default/img_14.jpg": {
+    "point": null,
+    "confidence": 0.0004820823669433594,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/default/img_15.jpg": {
+    "point": null,
+    "confidence": 0.0004477500915527344,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/default/img_16.jpg": {
+    "point": null,
+    "confidence": 0.0005192756652832031,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/default/img_17.jpg": {
+    "point": null,
+    "confidence": 0.0004973411560058594,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/default/img_18.jpg": {
+    "point": null,
+    "confidence": 0.00042057037353515625,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/default/img_19.jpg": {
+    "point": null,
+    "confidence": 0.00048041343688964844,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/default/img_20.jpg": {
+    "point": null,
+    "confidence": 0.00042057037353515625,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/default/img_200.jpg": {
+    "point": null,
+    "confidence": 0.00031757354736328125,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/default/img_201.jpg": {
+    "point": null,
+    "confidence": 0.00021827220916748047,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/default/img_202.jpg": {
+    "point": null,
+    "confidence": 0.0004107952117919922,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/default/img_203.jpg": {
+    "point": null,
+    "confidence": 0.0003077983856201172,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/default/img_204.jpg": {
+    "point": null,
+    "confidence": 0.0009288787841796875,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/default/img_205.jpg": {
+    "point": null,
+    "confidence": 0.00028014183044433594,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/default/img_206.jpg": {
+    "point": null,
+    "confidence": 0.00046181678771972656,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/default/img_21.jpg": {
+    "point": null,
+    "confidence": 0.0003612041473388672,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/default/img_22.jpg": {
+    "point": null,
+    "confidence": 0.00034737586975097656,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/default/img_23.jpg": {
+    "point": null,
+    "confidence": 0.0005421638488769531,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/default/img_24.jpg": {
+    "point": null,
+    "confidence": 0.0004582405090332031,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/default/img_29.jpg": {
+    "point": null,
+    "confidence": 0.0003447532653808594,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/default/img_3.jpg": {
+    "point": null,
+    "confidence": 0.0007524490356445312,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/default/img_3000.jpg": {
+    "point": null,
+    "confidence": 0.0009813308715820312,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/default/img_335.jpg": {
+    "point": null,
+    "confidence": 0.0006961822509765625,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/default/img_336.jpg": {
+    "point": null,
+    "confidence": 0.0006771087646484375,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/default/img_337.jpg": {
+    "point": null,
+    "confidence": 0.0008797645568847656,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/default/img_338.jpg": {
+    "point": null,
+    "confidence": 0.0007977485656738281,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/default/img_339.jpg": {
+    "point": null,
+    "confidence": 0.00070953369140625,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/default/img_340.jpg": {
+    "point": null,
+    "confidence": 0.0007014274597167969,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/default/img_341.jpg": {
+    "point": null,
+    "confidence": 0.00064849853515625,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/default/img_4.jpg": {
+    "point": null,
+    "confidence": 0.0006961822509765625,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/default/img_400.jpg": {
+    "point": null,
+    "confidence": 0.0017271041870117188,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/default/img_471.jpg": {
+    "point": null,
+    "confidence": 0.0006237030029296875,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/default/img_472.jpg": {
+    "point": null,
+    "confidence": 0.00070953369140625,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/default/img_473.jpg": {
+    "point": null,
+    "confidence": 0.0005440711975097656,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/default/img_488.jpg": {
+    "point": null,
+    "confidence": 0.00044417381286621094,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/default/img_489.jpg": {
+    "point": null,
+    "confidence": 0.00047278404235839844,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/default/img_490.jpg": {
+    "point": null,
+    "confidence": 0.0004916191101074219,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/default/img_491.jpg": {
+    "point": null,
+    "confidence": 0.00033283233642578125,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/default/img_492.jpg": {
+    "point": null,
+    "confidence": 0.0003077983856201172,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/default/img_493.jpg": {
+    "point": null,
+    "confidence": 0.00033664703369140625,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/default/img_494.jpg": {
+    "point": null,
+    "confidence": 0.0003669261932373047,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/default/img_495.jpg": {
+    "point": null,
+    "confidence": 0.0004601478576660156,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/default/img_496.jpg": {
+    "point": null,
+    "confidence": 0.0004124641418457031,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/default/img_497.jpg": {
+    "point": null,
+    "confidence": 0.0007495880126953125,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/default/img_50.jpg": {
+    "point": null,
+    "confidence": 0.0011510848999023438,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/default/img_501.jpg": {
+    "point": null,
+    "confidence": 0.000396728515625,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/default/img_502.jpg": {
+    "point": null,
+    "confidence": 0.00028252601623535156,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/default/img_51.jpg": {
+    "point": null,
+    "confidence": 0.0002982616424560547,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/default/img_519.jpg": {
+    "point": null,
+    "confidence": 0.0004029273986816406,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/default/img_52 (2).jpg": {
+    "point": null,
+    "confidence": 0.0002913475036621094,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/default/img_52.jpg": {
+    "point": null,
+    "confidence": 0.0002491474151611328,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/default/img_520.jpg": {
+    "point": null,
+    "confidence": 0.0005974769592285156,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/default/img_521.jpg": {
+    "point": null,
+    "confidence": 0.00042724609375,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/default/img_522.jpg": {
+    "point": null,
+    "confidence": 0.0005035400390625,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/default/img_523.jpg": {
+    "point": null,
+    "confidence": 0.0007014274597167969,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/default/img_524.jpg": {
+    "point": null,
+    "confidence": 0.0003814697265625,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/default/img_53 (2).jpg": {
+    "point": null,
+    "confidence": 0.00034332275390625,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/default/img_53.jpg": {
+    "point": null,
+    "confidence": 0.00043392181396484375,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/default/img_530.jpg": {
+    "point": null,
+    "confidence": 0.00039505958557128906,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/default/img_531.jpg": {
+    "point": null,
+    "confidence": 0.0003407001495361328,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/default/img_532.jpg": {
+    "point": null,
+    "confidence": 0.0004012584686279297,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/default/img_533.jpg": {
+    "point": null,
+    "confidence": 0.00047659873962402344,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/default/img_537.jpg": {
+    "point": null,
+    "confidence": 0.0005173683166503906,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/default/img_538.jpg": {
+    "point": null,
+    "confidence": 0.00046563148498535156,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/default/img_539.jpg": {
+    "point": null,
+    "confidence": 0.0005507469177246094,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/default/img_54 (2).jpg": {
+    "point": null,
+    "confidence": 0.00035834312438964844,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/default/img_54.jpg": {
+    "point": null,
+    "confidence": 0.00033020973205566406,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/default/img_540.jpg": {
+    "point": null,
+    "confidence": 0.0005035400390625,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/default/img_541.jpg": {
+    "point": null,
+    "confidence": 0.00043392181396484375,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/default/img_542.jpg": {
+    "point": null,
+    "confidence": 0.0003800392150878906,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/default/img_543.jpg": {
+    "point": null,
+    "confidence": 0.00033283233642578125,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/default/img_55 (2).jpg": {
+    "point": null,
+    "confidence": 0.0003249645233154297,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/default/img_55.jpg": {
+    "point": null,
+    "confidence": 0.0004124641418457031,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/default/img_56.jpg": {
+    "point": null,
+    "confidence": 0.0002434253692626953,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/default/img_57.jpg": {
+    "point": null,
+    "confidence": 0.00033545494079589844,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/default/img_58.jpg": {
+    "point": null,
+    "confidence": 0.00033545494079589844,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/default/img_59.jpg": {
+    "point": null,
+    "confidence": 0.00029587745666503906,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/default/img_60.jpg": {
+    "point": null,
+    "confidence": 0.0002982616424560547,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/default/img_601.jpg": {
+    "point": null,
+    "confidence": 0.0010862350463867188,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/default/img_602.jpg": {
+    "point": null,
+    "confidence": 0.0009698867797851562,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/default/img_603.jpg": {
+    "point": null,
+    "confidence": 0.0012445449829101562,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/default/img_604.jpg": {
+    "point": null,
+    "confidence": 0.0020751953125,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/default/img_61.jpg": {
+    "point": null,
+    "confidence": 0.0005130767822265625,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/default/img_62 (2).jpg": {
+    "point": null,
+    "confidence": 0.0002913475036621094,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/default/img_62.jpg": {
+    "point": null,
+    "confidence": 0.0001838207244873047,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/default/img_63 (2).jpg": {
+    "point": null,
+    "confidence": 0.0004124641418457031,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/default/img_63.jpg": {
+    "point": null,
+    "confidence": 0.00037550926208496094,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/default/img_66.jpg": {
+    "point": null,
+    "confidence": 0.0004093647003173828,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/default/img_67.jpg": {
+    "point": null,
+    "confidence": 0.00046563148498535156,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/default/img_68.jpg": {
+    "point": null,
+    "confidence": 0.0004954338073730469,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/default/img_7.jpg": {
+    "point": null,
+    "confidence": 0.0006093978881835938,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/default/img_70.jpg": {
+    "point": null,
+    "confidence": 0.00021660327911376953,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/default/img_700.jpg": {
+    "point": null,
+    "confidence": 0.0005211830139160156,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/default/img_701.jpg": {
+    "point": null,
+    "confidence": 0.0004172325134277344,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/default/img_702.jpg": {
+    "point": null,
+    "confidence": 0.00046181678771972656,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/default/img_703.jpg": {
+    "point": null,
+    "confidence": 0.0004239082336425781,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/default/img_704.jpg": {
+    "point": null,
+    "confidence": 0.0003814697265625,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/default/img_705.jpg": {
+    "point": null,
+    "confidence": 0.0003936290740966797,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/default/img_706.jpg": {
+    "point": null,
+    "confidence": 0.0005908012390136719,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/default/img_707.jpg": {
+    "point": null,
+    "confidence": 0.000507354736328125,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/default/img_708.jpg": {
+    "point": null,
+    "confidence": 0.0006413459777832031,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/default/img_709.jpg": {
+    "point": null,
+    "confidence": 0.00036406517028808594,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/default/img_71 (2).jpg": {
+    "point": null,
+    "confidence": 0.0005507469177246094,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/default/img_71.jpg": {
+    "point": null,
+    "confidence": 0.0002472400665283203,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/default/img_710.jpg": {
+    "point": null,
+    "confidence": 0.0012493133544921875,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/default/img_72.jpg": {
+    "point": null,
+    "confidence": 0.00025725364685058594,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/default/img_73.jpg": {
+    "point": null,
+    "confidence": 0.0002868175506591797,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/default/img_74.jpg": {
+    "point": null,
+    "confidence": 0.0003845691680908203,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/default/img_75.jpg": {
+    "point": null,
+    "confidence": 0.0002551078796386719,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/default/img_76.jpg": {
+    "point": null,
+    "confidence": 0.00031495094299316406,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/default/img_77.jpg": {
+    "point": null,
+    "confidence": 0.00023055076599121094,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/default/img_78.jpg": {
+    "point": null,
+    "confidence": 0.0002359151840209961,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/default/img_79.jpg": {
+    "point": null,
+    "confidence": 0.0002472400665283203,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/default/img_8.jpg": {
+    "point": null,
+    "confidence": 0.000415802001953125,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/default/img_80.jpg": {
+    "point": null,
+    "confidence": 0.0002434253692626953,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/default/img_9.jpg": {
+    "point": null,
+    "confidence": 0.0005421638488769531,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/default/img_900.jpg": {
+    "point": null,
+    "confidence": 0.0005011558532714844,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/default/img_920.jpg": {
+    "point": null,
+    "confidence": 0.00046563148498535156,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/default/img_921.jpg": {
+    "point": null,
+    "confidence": 0.0005464553833007812,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/default/img_922.jpg": {
+    "point": null,
+    "confidence": 0.0004239082336425781,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/default/img_923.jpg": {
+    "point": null,
+    "confidence": 0.0007791519165039062,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/default/img_924.jpg": {
+    "point": null,
+    "confidence": 0.00042724609375,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/default/img_925.jpg": {
+    "point": null,
+    "confidence": 0.0005192756652832031,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/default/img_926.jpg": {
+    "point": null,
+    "confidence": 0.0006237030029296875,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/default/img_927.jpg": {
+    "point": null,
+    "confidence": 0.0005421638488769531,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/default/img_928.jpg": {
+    "point": null,
+    "confidence": 0.0005421638488769531,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/default/img_929.jpg": {
+    "point": null,
+    "confidence": 0.0003981590270996094,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/default/img_930.jpg": {
+    "point": null,
+    "confidence": 0.0005092620849609375,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/default/img_931.jpg": {
+    "point": null,
+    "confidence": 0.0006093978881835938,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/default/img_932.jpg": {
+    "point": null,
+    "confidence": 0.0006718635559082031,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/default/img_933.jpg": {
+    "point": null,
+    "confidence": 0.00046563148498535156,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/default/img_934.jpg": {
+    "point": null,
+    "confidence": 0.0006046295166015625,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/default/img_935.jpg": {
+    "point": null,
+    "confidence": 0.00033664703369140625,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/default/img_938.jpg": {
+    "point": null,
+    "confidence": 0.0006694793701171875,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/default/img_958.jpg": {
+    "point": null,
+    "confidence": 0.0007581710815429688,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/default/img_971.jpg": {
+    "point": null,
+    "confidence": 0.0004565715789794922,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/default/img_972.jpg": {
+    "point": null,
+    "confidence": 0.00045299530029296875,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/default/img_973.jpg": {
+    "point": null,
+    "confidence": 0.0005316734313964844,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/default/img_974.jpg": {
+    "point": null,
+    "confidence": 0.00036406517028808594,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/default/img_975.jpg": {
+    "point": null,
+    "confidence": 0.00044417381286621094,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/default/img_980.jpg": {
+    "point": null,
+    "confidence": 0.0007238388061523438,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "/kaggle/working/label-matched-images/img_data/train/default/img_988.jpg": {
+    "point": null,
+    "confidence": 0.0008263587951660156,
+    "detected": false,
+    "size": [
+      224,
+      224
+    ]
+  }
+}
