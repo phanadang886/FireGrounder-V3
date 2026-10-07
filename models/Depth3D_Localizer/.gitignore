@@ -1,0 +1,11 @@
+# DepthART repo clone (không commit vào git chính)
+DepthART/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Test outputs
+*.npy
+*_pred.jpg
+depth3d_result.png

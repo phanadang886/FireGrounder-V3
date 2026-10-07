@@ -1,0 +1,27 @@
+# ========================================================
+# Depth3D_Localizer — Requirements
+# ========================================================
+# Core vision & ML
+torch>=2.1.0
+torchvision>=0.16.0
+opencv-python>=4.8.0
+numpy>=1.24.0
+Pillow>=10.0.0
+
+# DepthART dependencies
+huggingface_hub>=0.23.0
+safetensors>=0.4.0
+timm>=0.6.12          # TinyViM backbone registration
+einops>=0.8.0         # Tensor operations for DepthART
+
+# Depth Anything V2 (CPU fallback via transformers pipeline)
+transformers>=4.40.0
+
+# Interactive demo & visualization
+matplotlib>=3.7.0
+ipywidgets>=8.0.0
+ipython>=8.0.0
+
+# Optional: video support
+imageio>=2.31.0
+imageio-ffmpeg>=0.4.9
