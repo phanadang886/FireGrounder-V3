@@ -1,5 +1,13 @@
-# 🔥 FIRE GROUNDING PROJECT — HANDOFF DOCUMENT
-> **Mục đích file này:** Cung cấp toàn bộ context kỹ thuật để một AI model khác (DeepSeek, Claude, GPT, Gemini...) có thể tiếp tục dự án mà KHÔNG mất thông tin. Đọc file này TRƯỚC khi làm bất kỳ điều gì.
+# 🗄️ LEGACY — Lịch sử nhánh heatmap (ĐÃ BỎ)
+
+> **ĐỪNG làm theo file này.** Kiến trúc trong đây (MobileNetV4 / iFormer / heatmap `[p_fire, x_norm, y_norm]`) là thử nghiệm cũ, đã bỏ.
+> Kiến trúc **đang chạy** là FireBase-YOLO26 + Depth3D. Đọc `AGENTS.md` ở repo root trước khi làm bất cứ gì.
+> File này chỉ giữ lại để xem **vì sao các thử nghiệm cũ thất bại** — không sửa code, không train lại, không import vào pipeline mới.
+
+---
+
+# 🔥 FIRE GROUNDING PROJECT — HANDOFF DOCUMENT (bản gốc, 2026-09-21)
+> **Mục đích file này (lúc viết):** Cung cấp toàn bộ context kỹ thuật để một AI model khác tiếp tục dự án. **Câu này đã lỗi thời** — handoff hiện tại là `AGENTS.md`.
 
 **Cập nhật lần cuối:** 2026-09-21  
 **Workspace:** `d:\Tài liệu lab HMI\Fire_Segmentation`  

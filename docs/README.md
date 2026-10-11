@@ -58,7 +58,7 @@ select it for the main V3 experiment.
 | `kaggle_cells.py` | Legacy V1/V2 reference code | No | No |
 | `mobilenet-v4-l-n-2.ipynb` | Historical V2 notebook | No | No |
 | `requirements.txt` | Python dependencies | Yes | Yes |
-| `HANDOFF.md` | Technical history and design decisions | No | Documentation |
+| `LEGACY_heatmap_history.md` | Lịch sử nhánh heatmap đã bỏ — đừng làm theo; kiến trúc hiện tại xem `../AGENTS.md` | No | Documentation |
 | `README.md` | This deployment guide | No | Documentation |
 
 Folders that are safe to remove and should not be committed:
@@ -90,7 +90,7 @@ On the source machine:
 
 ```bash
 git init
-git add README.md HANDOFF.md requirements.txt .gitignore *.py *.ipynb fire_ground_dataset/dataset_labels.json
+git add README.md LEGACY_heatmap_history.md requirements.txt .gitignore *.py *.ipynb fire_ground_dataset/dataset_labels.json
 git commit -m "Prepare FireGrounder V3"
 git branch -M main
 git remote add origin https://github.com/<account>/<repository>.git

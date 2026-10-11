@@ -17,6 +17,10 @@ einops>=0.8.0         # Tensor operations for DepthART
 # Depth Anything V2 (CPU fallback via transformers pipeline)
 transformers>=4.40.0
 
+# FireBase-YOLO26 detector (full pipeline: pipeline.py)
+# Chỉ cần khi chạy detector; depth/localize không cần.
+ultralytics>=8.3.0
+
 # Interactive demo & visualization
 matplotlib>=3.7.0
 ipywidgets>=8.0.0
@@ -25,3 +29,19 @@ ipython>=8.0.0
 # Optional: video support
 imageio>=2.31.0
 imageio-ffmpeg>=0.4.9
+
+# ─────────────────────────────────────────────────────────────
+# Ghi chú cài đặt
+# ─────────────────────────────────────────────────────────────
+# Windows console mặc định dùng cp1252, không in được tiếng Việt.
+# Các script trong module đã tự bọc stdout UTF-8, không cần làm gì thêm.
+#
+# Cài nhanh:
+#   pip install -r requirements.txt
+#
+# Chỉ cần phần depth (không dùng YOLO):
+#   pip install torch torchvision opencv-python numpy pillow timm einops \
+#       huggingface_hub transformers
+#
+# Cài thêm Ultralytics (cần cho FireBase-YOLO26):
+#   pip install ultralytics
