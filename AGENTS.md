@@ -21,6 +21,7 @@ Sau đó **chỉ đọc phần bạn cần** theo bảng dưới — đừng đ�
 | Đụng tới model / dataset / config YOLO | `🚫 KHÔNG ĐƯỢC THAY ĐỔI` — **cấm** |
 | Chạy được nhưng ra kết quả sai | `🔍 Debug hints` |
 | Muốn biết *vì sao* một quyết định cũ chốt thế nào | `docs/DEPTH3D_HISTORY.md` |
+| **Làm trình mô phỏng MỚI trên Replica gốc (click kiểm tra depth)** | **`models/Depth3D_Localizer/simulation/PLAN_2026-10-16.md`** — đọc hết, đây là plan thi hành |
 | Biết trạng thái hiện tại / việc gì đang dở | `📝 SUMMARY` ở cuối file này |
 | Trước khi commit thay đổi | `🧪 Testing checklist` |
 
