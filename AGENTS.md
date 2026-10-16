@@ -21,7 +21,9 @@ Sau đó **chỉ đọc phần bạn cần** theo bảng dưới — đừng đ�
 | Đụng tới model / dataset / config YOLO | `🚫 KHÔNG ĐƯỢC THAY ĐỔI` — **cấm** |
 | Chạy được nhưng ra kết quả sai | `🔍 Debug hints` |
 | Muốn biết *vì sao* một quyết định cũ chốt thế nào | `docs/DEPTH3D_HISTORY.md` |
-| **Làm trình mô phỏng MỚI trên Replica gốc (click kiểm tra depth)** | **`models/Depth3D_Localizer/simulation/PLAN_2026-10-16.md`** — đọc hết, đây là plan thi hành |
+| **Click kiểm tra depth trong phòng 3D (Replica preprocessed + mesh, Windows)** | **`models/Depth3D_Localizer/simulation/PLAN_2026-10-16.md`** (đã viết lại, ngắn). Code: `mesh_io.py`, `anchor.py`, `room_viewer.py` |
+| Lửa giả / Phase 2 | `PLAN_2026-10-16.md` mục **6** + **8** (chờ lệnh user) |
+| Open3D đọc PLY thiếu mặt / viewer lỗi API / Δ mesh lớn bất thường | `🔍 Debug hints` — 3 mục mới ở cuối phần EGL |
 | Biết trạng thái hiện tại / việc gì đang dở | `📝 SUMMARY` ở cuối file này |
 | Trước khi commit thay đổi | `🧪 Testing checklist` |
 
@@ -143,6 +145,70 @@ Sau đó **chỉ đọc phần bạn cần** theo bảng dưới — đừng đ�
 
 *Quy ước: file này chỉ giữ các entry **mới nhất**. Lịch sử đầy đủ (Agent #2–#4, 6 entry) nằm ở
 `docs/DEPTH3D_HISTORY.md` — đọc khi cần biết vì sao một quyết định cũ được chốt, hoặc tìm lỗi đã gặp.*
+
+### [2026-10-16] — ĐỔI HƯỚNG: bỏ WSL2/Habitat/máy B, làm viewer click-to-check trên mesh có sẵn — AI Agent #6
+
+**Đã làm (Windows, 1 máy, không tải thêm):** `mesh_io.py` (parser PLY quad tay — Open3D nuốt 99,1 % mặt),
+`anchor.py` (pixel→3D GT + raycast mesh + Δ + phân loại cạnh che bằng `plane_residual` 11×11, ngưỡng 5 cm),
+`room_viewer.py` (2 cửa sổ). Cả 3 `--selftest` PASS; `room_viewer.py --smoke 8` chạy cửa sổ thật.
+`--smoke` bắt 3 lỗi API Open3D 0.20 mà selftest không thấy (`set_up_vector`, `remove_geometry(tên)`,
+xoá nhầm mesh phòng). Mesh check = bắt lỗi code, không phải phép đo (room0 sạch: median 2,04 / p95 6,76 mm).
+`PLAN_2026-10-16.md` đã viết lại ngắn. **Chưa có:** `fire_sprite.py`, Phase 2.
+Mục dưới đây (EGL/máy B) là **lịch sử, đã bỏ**.
+
+---
+
+### [2026-10-16] — (LỊCH SỬ, ĐÃ BỎ) Kiểm chứng nguồn cho plan Replica gốc: rủi ro EGL — AI Agent #6
+
+**Bối cảnh:** User yêu cầu "kiểm tra lại thông tin chi tiết trên mọi nguồn để confirm". Đây là bước
+kiểm chứng cho `simulation/PLAN_2026-10-16.md` — plan dựng trình mô phỏng mới trên **Replica gốc**
+ở **máy B (Windows 10 + RTX 3060)**, phục vụ Phase 1 (click pixel → so depth) và Phase 2 (lửa giả).
+
+#### 🔴 Lỗi đã sửa
+
+| # | Đã ghi sai | Thực tế | Hậu quả nếu để nguyên |
+|---|---|---|---|
+| 1 | `conda create -n habitat python=3.12 cmake=3.27` | **`python=3.9 cmake=3.14.0`** — gói conda **ổn định 0.3.3** ràng buộc `>=3.9,<3.10` | Conda giải không ra / cài hỏng env |
+
+Nguyên nhân: đọc README **nhánh `main`** (chưa phát hành) rồi tưởng là bản ổn định.
+
+#### 🔴 Rủi ro mới phát hiện — **EGL trên WSL2** (chưa ai vượt qua)
+
+Habitat-Sim headless **cần EGL của NVIDIA** khớp thiết bị CUDA. Bằng chứng đã tra:
+- Tài liệu CUDA-on-WSL của NVIDIA: *"OpenGL-CUDA Interop is not yet supported. Applications relying on OpenGL will not work."*
+- Nền tảng habitat-sim hỗ trợ **chỉ `linux-64` và `macOS-arm64`** — **không Windows, không WSL**.
+- GitHub issue #127: người dùng báo lỗi GPU trên WSL2 — **cả headless lẫn không headless**.
+- Lỗi điển hình: `EGL_BAD_PARAMETER` · `unable to find CUDA device 0 among N EGL devices` · `EGL device 0, CUDA device 0 is not readable`.
+
+→ **Không có tài liệu nào xác nhận habitat-sim chạy được trên WSL2.** Đã thêm **⛔ CỔNG EGL**
+(`PLAN` mục 4.3b) chặn **trước khi tải 34 GB Replica**: tải `habitat_test_scenes` (~trăm MB) →
+render thử → **chỉ khi PASS mới được tải dataset**.
+
+#### ✅ Xác minh đúng
+
+- `wsl --install` cần Win10 build ≥ **19041** (máy B: **19045**) — Microsoft Learn.
+- WSL2 cần bật **cả** `VirtualMachinePlatform` + `Microsoft-Windows-Subsystem-Linux`, **buộc restart**.
+- **WSLg (GUI) cần Windows 11 build 22000+** → Win10 **không có GUI**, buộc render headless.
+- `--location` cần **WSL ≥ 2.4.4**. `wsl.exe` trên máy B **chưa có** → phải cập nhật trước.
+- **Máy B CÓ quyền admin** (đã mở được PowerShell Administrator) — khác giả định trước đó.
+- **Replica**: 18 scene; `mesh.ply` có **màu đỉnh**, `textures/` là **Ptex HDR**.
+- **Blender**: `Blender Internal` (engine duy nhất từng hỗ trợ Ptex) **đã xoá từ 2.80**; Cycles **chưa
+  bao giờ** hỗ trợ Ptex → Blender chỉ render được màu đỉnh. Replica tự nói "not recommended".
+- **UltraViewer**: mới nhất **6.6.127**; blog chính thức nói restart từ xa cần **cả 2 máy ≥ 6.2.79**.
+  ⚠️ **Chưa xác minh được:** có cần bản quyền không, và có điều khiển được **màn hình login** không.
+
+#### 📄 Đã cập nhật
+
+- `simulation/PLAN_2026-10-16.md`: mục **4.2** (bảng các đường đi + bằng chứng EGL + bảng sự thật đã
+  xác minh), mục **4.2b** (quy trình an toàn restart: UltraViewer mật khẩu riêng + auto-login Windows
+  + cảnh báo `netplwiz` bị ẩn), mục **4.3** (DISM bật feature + `python=3.9`), mục **4.3b** (⛔ cổng
+  EGL), mục **4.7** (Blender + sprite 2D + Open3D), checklist mục 7 và bẫy mục 8.
+- Thêm đường **ghép sprite 2D lên Replica preprocessed** (mục 4.7.2) — không cần mesh/WSL/admin;
+  BASE 3D GT = back-project **pixel neo** bằng depth GT.
+
+**Chưa có:** bất kỳ số liệu nào ở máy B. Chưa cài WSL2, chưa tải gì, chưa bật feature.
+
+---
 
 ### [2026-10-09] — Notebook so 4 model depth, chưa có số — AI Agent #5
 
@@ -448,9 +514,10 @@ Mọi thứ của simulator nằm trên `D:\replica_sim\`. Script nào cũng ph�
 - [ ] **`pip install ultralytics`** (chưa cài trên máy dev)
 - [ ] **Chụp 20-30 ảnh bàn cờ** → `python calibrate_camera.py --images ... --drop-outliers` để có intrinsics thật
 - [ ] **Test với camera thật** — cần phần cứng, không làm được trong môi trường code
+- [ ] **Ra lệnh Phase 2** (lửa giả A/B/C) — xem `PLAN_2026-10-16.md` mục 6
 
 ### Tương lai
-- [ ] Code 5 script simulator theo `models/Depth3D_Localizer/simulation/SIM_CONTRACT.md` (chạy trên ổ D, Case A phải < 1 cm trước)
+- [x] Code simulator theo `models/Depth3D_Localizer/simulation/SIM_CONTRACT.md` — **5/6 phase xong**, Phase 6 còn dở (xem 📝 SUMMARY)
 - [ ] Đánh giá độ chính xác depth trên ảnh lửa thật (cần dataset GT: Replica/ScanNet++)
 - [ ] Tối ưu tốc độ depth (nút thắt 99% thời gian) — thử ONNX / TensorRT / giảm resolution
 - [ ] Tách thread YOLO + depth để tăng FPS
@@ -459,6 +526,7 @@ Mọi thứ của simulator nằm trên `D:\replica_sim\`. Script nào cũng ph�
 ### Đã loại bỏ
 - ~~Tải DepthART metric outdoor~~ (chưa cần — dùng indoor cho môi trường trong nhà)
 - ~~Replica dataset render pipeline~~ (cần 10GB + habitat-sim; ưu tiên sau)
+  → Đã thử mở lại 2026-10-16 (máy B/WSL2/EGL) rồi **bỏ hẳn**: dùng mesh có sẵn trong Replica preprocessed.
 
 ---
 
@@ -571,6 +639,20 @@ ultralytics>=8.3.0    # FireBase-YOLO26 (chỉ cần cho detector)
   trước khi chạy DepthART. Cần nâng RAM trống lên > 3 GB.
 - **Liên quan:** Phase 4 simulator (`run_eval.py`) chạy DepthART thật → chắc chắn gặp lỗi này nếu RAM chật
 
+### 🗄️ (Lịch sử) `EGL_BAD_PARAMETER` — hướng Habitat-Sim/WSL2 đã BỎ, không còn áp dụng
+- Chỉ gặp nếu ai đó mở lại hướng Habitat-Sim headless trong WSL2. Hướng đó bị bỏ vì mesh GT đã có sẵn.
+
+### `open3d` read PLY ra thiếu 99 % tam giác / `A polygon in the mesh could not be decomposed`
+- Mesh Replica toàn **tứ giác**; Open3D nuốt gần hết. **Luôn dùng `mesh_io.load_ply`**, không `o3d.io.read_triangle_mesh`.
+
+### Viewer Open3D 0.20: `set_up_vector` / `remove_geometry(name)` lỗi
+- Đúng API: `ViewControl.set_up(...)`; `Visualizer.remove_geometry(<đối tượng>)` (không nhận tên);
+  `set_front` = hướng từ điểm nhìn **tới** camera (ngược hướng nhìn). Chỉ `--smoke` mới bắt được, `--selftest` thì không.
+
+### Cạnh che làm Δ mesh↔GT lớn (0,26–0,84 m) mà không phải bug
+- Dùng `anchor.plane_residual` (cửa sổ 11×11, ngưỡng 5 cm); `nan` = "không phân loại được", **không** phải sạch.
+  Đừng thay bằng `max−min` hay cửa sổ 7×7 — đã đo, đều sai.
+
 ### Thiếu weights FireBase-YOLO26
 - `*.pt` bị `.gitignore` → repo không có
 - Copy vào `models/FireBase_YOLO26/training_runs/firebase_yolo26n/weights/best.pt`
@@ -592,7 +674,9 @@ Nếu agent tiếp theo cần context nhanh:
 
 ---
 
-**Last updated:** 2026-10-09 by AI Agent #5 (notebook so 4 model depth, chưa chạy số)
+**Last updated:** 2026-10-16 (lần 2) by AI Agent #6 (kiểm chứng nguồn cho plan Replica gốc ở máy B:
+sửa `python=3.12` → **`3.9`**; thêm **⛔ cổng EGL** + **quy trình an toàn restart**; sửa đánh giá
+Blender; thêm đường ghép sprite 2D. **Chưa chạy số nào.**)
 
 ---
 
@@ -612,14 +696,28 @@ Nếu agent tiếp theo cần context nhanh:
 - ✅ **Phase 5 — `eval_metrics.py`** — đã có; `check_metrics.ipynb` tính lại `case_B_noisy` khớp **0.3119 m**
 - 🔄 **Phase 6 — đánh giá thật** — mới có số **DepthART relative MNV4-S** (B_noisy MAE 0.3119 m, 400 điểm). Bản metric, slim, YOLO26n-depth, Depth Anything V2 **chưa có số**
 - ⬜ **`compare_depth_models.ipynb`** — notebook so 4 model đã viết, ô chấm tắt, **chưa chạy**
-- ⛔ **Không tải mesh Replica gốc** (31.53 GB, vượt ổ D; SDK không chạy Windows)
+- ✅ **Hướng WSL2 / Habitat-Sim / EGL / máy B / tải 34 GB đã BỎ (2026-10-16)** — mesh GT đã có sẵn trong
+  Replica preprocessed (`*_mesh.ply`, 8 file, 267 MB). Không cần Linux, reboot hay tải thêm.
 - ⛔ **Không đụng nhánh ROI/mesh của báo cáo ngoài** (legacy cấm + Scene-MLP sai 1.18 m)
+
+### Trình mô phỏng click-to-check trên Replica preprocessed + mesh (Windows, 1 máy) ✅
+- ✅ **Plan** — `simulation/PLAN_2026-10-16.md` (đã viết lại hoàn toàn)
+- ✅ **`mesh_io.py`** — parser PLY quad bằng tay + raycast mesh gốc; `--selftest` PASS
+- ✅ **`anchor.py`** — pixel → 3D (GT) + raycast mesh + Δ + bộ phân loại cạnh che 3 lớp; `--selftest` PASS
+- ✅ **`room_viewer.py`** — 2 cửa sổ (ảnh bấm + phòng 3D); `--selftest` PASS **và** `--smoke 8` chạy cửa sổ thật
+- ⬜ **`fire_sprite.py` + Phase 2 (A không lửa / B sprite / C miếng xám)** — **chưa viết, chờ lệnh user**
+- ⚠️ Mesh check = bắt lỗi code, **không phải phép đo**. Báo median/p95 trên điểm sạch (room0: 2,04 / 6,76 mm), không báo "2 mm cố định".
 
 ### Blocker cần USER
 1. **Copy `best.pt`** → `models/FireBase_YOLO26/training_runs/firebase_yolo26n/weights/`
 2. **`pip install ultralytics`** (chưa cài)
 3. **Chụp 20-30 ảnh bàn cờ** → calibrate intrinsics thật (nếu muốn metric depth chính xác)
 4. Muốn số so sánh: mở `compare_depth_models.ipynb`, chạy ô 1–3, bật `RUN = True` ở ô 4. Đóng Chrome trước (cần RAM trống).
+5. Muốn dùng viewer: `cd models/Depth3D_Localizer/simulation && python room_viewer.py --scene room0` (đóng Chrome/Docker nếu RAM chật).
+6. Ra lệnh **Phase 2** (lửa giả) khi muốn viết `fire_sprite.py` và chạy A/B/C.
 
 ### Next action (cho agent tiếp)
-Đừng chạy chấm hộ nếu user chưa bật. Khi có CSV trong `D:\replica_sim\results\cmp_*`, đọc ô 5 — chỉ báo số khi cột `n` của các model **bằng nhau**. Đừng gọi số YOLO26 là mét thật: notebook căn affine như các model relative.
+- **Việc A (notebook so 4 model):** Đừng chạy chấm hộ nếu user chưa bật. Khi có CSV trong `D:\replica_sim\results\cmp_*`, đọc ô 5 — chỉ báo số khi cột `n` của các model **bằng nhau**. Đừng gọi số YOLO26 là mét thật: notebook căn affine như các model relative.
+- **Việc B (Phase 2 — lửa giả):** đọc `PLAN_2026-10-16.md` mục 6 + 8. **Chỉ làm khi user ra lệnh.** Viết `fire_sprite.py`
+  rồi chạy 3 điều kiện A/B/C trên cùng frame/pixel. Neo tránh pixel `edge`/`unknown`. Ảnh vào DepthART là JPEG gốc + sprite.
+  **Cấm ghi vào ổ C.**
