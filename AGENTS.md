@@ -156,6 +156,26 @@ xoá nhầm mesh phòng). Mesh check = bắt lỗi code, không phải phép đo
 `PLAN_2026-10-16.md` đã viết lại ngắn. **Chưa có:** `fire_sprite.py`, Phase 2.
 Mục dưới đây (EGL/máy B) là **lịch sử, đã bỏ**.
 
+**Phát hiện qua chạy GUI thật (user báo cửa sổ 3D đen thui):** Open3D chỉ vẽ mesh khi geometry
+**đầu tiên** được thêm bằng `add_geometry(..., reset_bounding_box=True)`. Để `False` thì cửa sổ hiện
+ra nền đen (đo: **0 %** pixel sáng vs **73 %** khi `True`). Đã sửa: mesh phòng + khung camera dùng
+`reset_bbox=True`, marker dùng `False` (để đặt neo không giật camera), và bơm vài `poll_events`
+trước khi đặt view. Selftest **không** bắt được lỗi này — chỉ ảnh chụp cửa sổ thật mới thấy.
+Ảnh tự chụp từ app: `D:\replica_sim\_app_3d.png` (đã xoá file thử).
+
+**Đóng cửa sổ:** `pump()` giờ thoát cả hai cửa sổ khi người dùng bấm X ở **một** cửa sổ
+(OpenCV: `getWindowProperty(...VISIBLE) < 1`; Open3D: `poll_events() is False` — đã đo). Thoát bằng
+`q` vẫn là cách sạch nhất và tự lưu JSON. Hướng dẫn đầy đủ: `PLAN_2026-10-16.md` mục **5.3**.
+
+**🔴 Bug "bấm `c` xoá xong không đặt lại được" (user báo) — đã sửa:** `_drain()` viết
+`self.pending = []` (tạo list mới), trong khi `cv2.setMouseCallback` giữ tham chiếu tới list **cũ** lúc
+đăng ký ⇒ chỉ click **đầu tiên** vào được anchor, mọi click sau rơi vào list mồ côi. Tái hiện bằng code
+cũ: số anchor sau 3 click = `[1, 1, 1]`; code mới = `[1, 2, 3]`. Sửa: `self.pending.clear()` tại chỗ.
+Selftest thêm 3 check (click liên tiếp, `pending` giữ nguyên đối tượng, click lại sau `c`).
+Selftest cũ **không** bắt được vì chỉ gọi `add_pixel` thẳng, không đi qua đường chuột → bài học: test
+phải đi qua đúng đường mà người dùng đi.
+**HUD + terminal** đã viết lại dễ hiểu (nền tối mờ, ghi rõ "phải chọn cửa sổ ảnh khi gõ phím"); xem `PLAN` mục **5.2**.
+
 ---
 
 ### [2026-10-16] — (LỊCH SỬ, ĐÃ BỎ) Kiểm chứng nguồn cho plan Replica gốc: rủi ro EGL — AI Agent #6
@@ -649,6 +669,16 @@ ultralytics>=8.3.0    # FireBase-YOLO26 (chỉ cần cho detector)
 - Đúng API: `ViewControl.set_up(...)`; `Visualizer.remove_geometry(<đối tượng>)` (không nhận tên);
   `set_front` = hướng từ điểm nhìn **tới** camera (ngược hướng nhìn). Chỉ `--smoke` mới bắt được, `--selftest` thì không.
 
+### 🔴 Cửa sổ 3D đen thui (chỉ nền, không có phòng) — Open3D `reset_bounding_box`
+- **Triệu chứng:** cửa sổ ảnh RGB vẫn đúng (bấm ra anchor, Δ vài mm), nhưng cửa sổ `Phong 3D` chỉ có nền xanh đen.
+- **Nguyên nhân:** geometry **đầu tiên** phải thêm bằng `add_geometry(g, reset_bounding_box=True)`;
+  để `False` thì Open3D không dựng được view → không vẽ gì. Đo: `False` = 0 % pixel sáng, `True` = 73 %.
+- **Không phải:** dấu `set_front`, thiếu normals/màu, hỏng cửa sổ, hay RAM.
+- **Cách kiểm chứng không cần mắt:** `np.asarray(viz.capture_screen_float_buffer(do_render=True))`
+  rồi đếm `(buf.max(axis=2) > 0.12).mean()` — 0 % là lỗi này.
+- **Cách sửa trong code:** `_add(disp, "_room_", dynamic=False, reset_bbox=True)`; marker giữ `False`.
+  Bơm vài `poll_events()/update_renderer()` trước `_set_view_to_camera()` cho cửa sổ kịp có kích thước.
+
 ### Cạnh che làm Δ mesh↔GT lớn (0,26–0,84 m) mà không phải bug
 - Dùng `anchor.plane_residual` (cửa sổ 11×11, ngưỡng 5 cm); `nan` = "không phân loại được", **không** phải sạch.
   Đừng thay bằng `max−min` hay cửa sổ 7×7 — đã đo, đều sai.
@@ -713,7 +743,7 @@ Blender; thêm đường ghép sprite 2D. **Chưa chạy số nào.**)
 2. **`pip install ultralytics`** (chưa cài)
 3. **Chụp 20-30 ảnh bàn cờ** → calibrate intrinsics thật (nếu muốn metric depth chính xác)
 4. Muốn số so sánh: mở `compare_depth_models.ipynb`, chạy ô 1–3, bật `RUN = True` ở ô 4. Đóng Chrome trước (cần RAM trống).
-5. Muốn dùng viewer: `cd models/Depth3D_Localizer/simulation && python room_viewer.py --scene room0` (đóng Chrome/Docker nếu RAM chật).
+5. Muốn dùng viewer: `cd models/Depth3D_Localizer/simulation && python room_viewer.py --scene room0` (đóng Chrome/Docker nếu RAM chật). Phím + cách đóng cửa sổ sạch: `PLAN_2026-10-16.md` mục **5.2 + 5.3**.
 6. Ra lệnh **Phase 2** (lửa giả) khi muốn viết `fire_sprite.py` và chạy A/B/C.
 
 ### Next action (cho agent tiếp)

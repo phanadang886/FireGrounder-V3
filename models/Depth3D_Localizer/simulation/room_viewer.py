@@ -298,11 +298,14 @@ class RoomViewer:
             raise FileNotFoundError(f"khong doc duoc anh: {p}")
         return img
 
-    def _add(self, g, name: str, dynamic: bool = True) -> None:
+    def _add(self, g, name: str, dynamic: bool = True, reset_bbox: bool = False) -> None:
         """Visualizer của Open3D xoá theo **đối tượng**, không theo tên ⇒ phải giữ
         tham chiếu. Chỉ geometry ``dynamic`` (marker) mới vào danh sách bị xoá lại;
-        mesh phòng và khung camera là cố định."""
-        ok = self.viz.add_geometry(g, reset_bounding_box=False)
+        mesh phòng và khung camera là cố định.
+
+        ``reset_bbox=True`` BẮT BUỘC cho geometry đầu tiên (mesh phòng): với False
+        cửa sổ thật chỉ hiện nền đen (đã đo: 0 % vs 73 % pixel sáng)."""
+        ok = self.viz.add_geometry(g, reset_bounding_box=reset_bbox)
         if ok and dynamic:
             self._marker_names.append(name)
             self._marker_objs.append(g)
@@ -350,10 +353,13 @@ class RoomViewer:
         self.viz = o3d.visualization.Visualizer()
         self.viz.create_window(window_name=f"Phong 3D — {self.scene}", width=1280, height=800)
         disp = mesh_io.decimate_for_display(self.ac.mesh, self.decimate, verbose=self.verbose)
-        self._add(disp, "_room_", dynamic=False)
+        self._add(disp, "_room_", dynamic=False, reset_bbox=True)
         self._add(self.camera_frame_geom(), "_camframe_", dynamic=False)
         opt = self.viz.get_render_option()
         opt.background_color = np.array([0.06, 0.06, 0.08])
+        for _ in range(4):                  # cho cửa sổ có kích thước trước khi đặt camera
+            self.viz.poll_events()
+            self.viz.update_renderer()
         self._set_view_to_camera()
         self.sync_markers()
 
@@ -376,14 +382,22 @@ class RoomViewer:
                         cv2.FONT_HERSHEY_SIMPLEX, 0.55, col, 2, cv2.LINE_AA)
 
         H, W = canvas.shape[:2]
+        n_here = sum(1 for a in self.anchors if a.frame == self.frame and a.valid)
         lines = [
-            f"{self.scene}  frame {self.frame}/{self.n_frames-1}   anchors: {len(self.anchors)}",
-            "Xanh la = GT   Do = mesh   Vang = do lech",
-            "click dat | u hoan | c xoa | s luu | [ ] frame | q thoat",
+            f"{self.scene} | frame {self.frame}/{self.n_frames-1} | da dat {len(self.anchors)} diem",
+            "CACH DUNG: CLICK TRAI vao anh de dat diem. Xem cua so 3D de thay do lech.",
+            "Vong XANH = diem tot | vong CAM = canh che (khong tin mesh o day)",
+            "u = bo diem vua dat | c = xoa HET diem | s = luu file | [ ] = doi frame | q = thoat",
         ]
+        if n_here == 0 and not self.anchors:
+            lines.append(">>> Chua co diem nao. Hay click vao anh. <<<")
         if self.status:
             lines.append(self.status[:110])
         y = 20
+        n_lines = len(lines)
+        overlay = canvas.copy()
+        cv2.rectangle(overlay, (0, 0), (min(W, 760), 10 + 20 * n_lines), (0, 0, 0), -1)
+        canvas = cv2.addWeighted(overlay, 0.6, canvas, 0.4, 0)
         for ln in lines:
             cv2.putText(canvas, ln, (8, y), cv2.FONT_HERSHEY_SIMPLEX, 0.5,
                         (255, 255, 255), 1, cv2.LINE_AA)
@@ -393,24 +407,33 @@ class RoomViewer:
     def _drain(self) -> None:
         if not self.pending:
             return
-        pix, self.pending = list(self.pending), []
+        pix = list(self.pending)
+        self.pending.clear()      # xoa TAI CHO: callback chuot giu tham chieu list nay
         for u, v in pix:
             self.add_pixel(float(u), float(v))
         self.sync_markers()
 
     def pump(self) -> int:
-        """Bơm sự kiện cho **cả hai** event loop. Trả mã phím (0 = không)."""
+        """Bơm sự kiện cho **cả hai** event loop. Trả mã phím (0 = không).
+
+        Đóng **một trong hai** cửa sổ (bấm X) ⇒ thoát cả hai, không để tiến trình
+        treo. OpenCV báo qua ``getWindowProperty(...VISIBLE)``, Open3D qua
+        ``poll_events() is False``.
+        """
         key = 0
         try:
             self._cv2.imshow(IMG_WIN, self.render_image())
             key = self._cv2.waitKey(1) & 0xFF
+            if self._cv2.getWindowProperty(IMG_WIN, self._cv2.WND_PROP_VISIBLE) < 1:
+                self.quit = True
         except Exception as e:                        # cửa sổ bị người dùng đóng
             if not self.quit:
                 print(f"  [!] Lo OpenCV: {e}")
             self.quit = True
         if self.viz is not None:
             try:
-                self.viz.poll_events()
+                if not self.viz.poll_events():        # False = nguoi dung bam X
+                    self.quit = True
                 self.viz.update_renderer()
             except Exception as e:
                 print(f"  [!] Lo Open3D: {e}")
@@ -642,6 +665,25 @@ def _selftest(root: Path, scene: str = "room0", frame: int = 0) -> int:
     v.clear()
     check("clear ve 0", len(v.anchors) == 0 and len(v.marker_geoms()) == 0, "")
 
+    # (f2) đường CHUỘT: callback giữ tham chiếu list lúc đăng ký. Nếu _drain tạo list
+    #      mới (self.pending = []) thì mọi click SAU click đầu rơi vào list mồ côi
+    #      (bug user gặp: bấm 'c' xong không đặt lại được).
+    import cv2
+    held = v.pending                       # đúng thứ mà setMouseCallback giữ
+    got = []
+    for rnd in range(3):
+        _mouse_cb(cv2.EVENT_LBUTTONDOWN, 600 + rnd * 10, 340, 0, held)
+        v._drain()
+        got.append(len(v.anchors))
+    check("click chuot lien tiep deu vao anchor (3 lan)", got == [1, 2, 3], f"so anchor: {got}")
+    check("pending giu nguyen DOI TUONG list (callback khong bi mo coi)",
+          v.pending is held, "")
+    v.clear()
+    _mouse_cb(cv2.EVENT_LBUTTONDOWN, 650, 340, 0, held)
+    v._drain()
+    check("sau 'c' xoa van dat lai duoc", len(v.anchors) == 1, f"{len(v.anchors)} anchor")
+    v.clear()
+
     # (g) đổi frame không làm hỏng anchor đã lưu (chúng ở hệ world)
     v.add_pixel(intr["cx"], intr["cy"])
     kept = v.anchors[0]
@@ -694,8 +736,20 @@ def main(argv: Optional[Sequence[str]] = None) -> int:
 
     v = RoomViewer(scene=args.scene, frame=args.frame, root=root,
                    decimate=(10**9 if args.decimate <= 0 else args.decimate))
-    print(f"\nMo 2 cua so. Bam vaoANH RGB de dat anchor; nhin cua so 3D de thy do lech.")
-    print(f"Phim: s luu · u hoan · c xoa · [ ] frame · q thoat\n")
+    print("\n" + "=" * 66)
+    print("  CACH DUNG (2 cua so se mo ra)")
+    print("=" * 66)
+    print("  1. CUA SO ANH (ben trai): CLICK TRAI vao 1 diem bat ky tren anh.")
+    print("     -> terminal in ra: do sau that, do sau mesh, do lech (mm).")
+    print("  2. CUA SO 3D (ben phai): thay phong 3D. Cham xanh la = diem that (GT),")
+    print("     cham do = diem do tia mesh. Hai cham cang gan nhau = cang dung.")
+    print("     Xoay: keo chuot trai | Phong to: lan chuot | Dich: Ctrl + keo.")
+    print("  3. PHIM (phai bam khi dang chon CUA SO ANH, khong phai terminal):")
+    print("       u = bo diem vua dat      c = xoa HET diem de dat lai")
+    print("       s = luu ra file JSON     [ ] = lui / tien 1 frame")
+    print("       q = thoat (tu dong luu)")
+    print("  Vong CAM tren anh = canh che: mesh khong dung duoc o do, dung dat diem o do.")
+    print("=" * 66 + "\n")
     v.run(smoke_seconds=args.smoke, out=args.out)
     return 0
 
